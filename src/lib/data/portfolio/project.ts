@@ -63,7 +63,7 @@ export const project: Project[] = [
         media: [
             {
                 title: "Source Code",
-                url: "https://github.com/DerizhyLouise/peduli-anak",
+                url: "https://github.com/LouiseDerizhy/peduli-anak",
                 typeSymbol: { src: "fa-brands fa-github", type: "fa" },
             },
             {
@@ -130,7 +130,7 @@ export const project: Project[] = [
         media: [
             {
                 title: "Source Code",
-                url: "https://github.com/DerizhyLouise/derizhy",
+                url: "https://github.com/LouiseDerizhy/derizhy",
                 typeSymbol: { src: "fa-brands fa-github", type: "fa" },
             },
             {
@@ -167,7 +167,7 @@ export const project: Project[] = [
             },
             {
                 title: "Source Code",
-                url: "https://github.com/DerizhyLouise/RevoU-Data-Analytics-Capstone-Project",
+                url: "https://github.com/LouiseDerizhy/RevoU-Data-Analytics-Capstone-Project",
                 typeSymbol: { src: "fa-brands fa-github", type: "fa" },
             },
         ],
@@ -248,7 +248,7 @@ export const project: Project[] = [
         media: [
             {
                 title: "Source Code",
-                url: "https://github.com/DerizhyLouise/Bike-Rental-Data-Analysis-Project",
+                url: "https://github.com/LouiseDerizhy/Bike-Rental-Data-Analysis-Project",
                 typeSymbol: { src: "fa-brands fa-github", type: "fa" },
             },
         ],
@@ -269,7 +269,7 @@ export const project: Project[] = [
         media: [
             {
                 title: "Source Code",
-                url: "https://github.com/DerizhyLouise/Cryptography-Project",
+                url: "https://github.com/LouiseDerizhy/Cryptography-Project",
                 typeSymbol: { src: "fa-brands fa-github", type: "fa" },
             },
         ],
@@ -297,7 +297,7 @@ export const project: Project[] = [
         media: [
             {
                 title: "Source Code",
-                url: "https://github.com/DerizhyLouise/Image-Processing-PythonProject",
+                url: "https://github.com/LouiseDerizhy/Image-Processing-PythonProject",
                 typeSymbol: { src: "fa-brands fa-github", type: "fa" },
             },
         ],

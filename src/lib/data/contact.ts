@@ -29,7 +29,7 @@ export const portfolioContactData: Contact[] = [
     },
     {
         icon: "fab fa-github",
-        link: "https://github.com/DerizhyLouise",
+        link: "https://github.com/LouiseDerizhy",
         label: "Github",
     },
     {

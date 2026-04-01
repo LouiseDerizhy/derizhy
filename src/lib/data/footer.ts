@@ -75,7 +75,7 @@ export const footerData: FooterData = {
         {
             label: "Github",
             icon: "fa-brands fa-github",
-            href: "https://github.com/DerizhyLouise",
+            href: "https://github.com/LouiseDerizhy",
             target: "_blank",
         },
     ],
