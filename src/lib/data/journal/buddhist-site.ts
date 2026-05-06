@@ -20,9 +20,9 @@ export const siteList: BuddhistSite[] = [
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.9805650450317!2d98.7772517!3d1.7390880999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302ef46de6e211dd%3A0xfdbe333a16e9dfb7!2sVihara%20Avalokitesvara%20Sibolga!5e0!3m2!1sen!2sid!4v1778058432175!5m2!1sen!2sid",
         story: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "This vihara is opening a new page in my journey. On 4 April 2026, I visited Vihara Avalokitesvara Sibolga for the inauguration of Persaudaraan Muda-mudi Vihara Avalokitesvara Sibolga (PMVAS). The trip from Medan to Sibolga by road took around 10 hours, and yeah… it was quite a long ride",
+            "Sibolga itself isn't a big city like most others. The vihara is located right by the seaside, inside the Tri Ratna Buddhist School. I got curious and asked the youth there, since Sibolga is mostly Christian, does that mean the school is mostly Buddhist? Turns out, most of the students there are actually Christian.",
+            "During the inauguration, I really respect the foundation. It takes courage to build a Buddhist school in a place like that. It's not just about a building, but about building future generations. Honestly, this place is definitely going to be one of my favorites.",
         ],
     },
     {
@@ -34,7 +34,12 @@ export const siteList: BuddhistSite[] = [
         time: "8 April 2026",
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.933335403601!2d98.66695879999999!3d3.6027411000000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031310057d50745%3A0xaca8f66100ce4b78!2sYayasan%20Samudera%20Maha%20Dharani!5e0!3m2!1sen!2sid!4v1778058466653!5m2!1sen!2sid",
-        story: [],
+        story: [
+            "One night, on 8 April 2026, after having dinner together, my friends invited me to visit a vihara they had been wanting to see for a long time. So we decided to go.",
+            "From the outside, the vihara looked quite big. To get inside, we had to walk around to the back area. As we got closer to the baktisala, the atmosphere became noticeably quieter. It turned out that many people were inside, practicing meditation.",
+            "At one point, the door to the baktisala, which had been closed, slowly opened. I won't lie. It gave me chills. The atmosphere felt intense and almost surreal.",
+            "When we finally stepped inside, I saw a very large golden statue standing in the center. There was something different about this place. The overall feeling, the silence, the presence. It was a unique experience that's hard to fully put into words.",
+        ],
     },
     {
         id: "vihara-ratana-stupa-agung-medan",
@@ -45,7 +50,10 @@ export const siteList: BuddhistSite[] = [
         time: "12 April 2026",
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.0429941948896!2d98.61345!3d3.577593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312f011d747243%3A0x82d1066330a7b101!2sVihara%20Ratana%20Stupa%20Agung.!5e0!3m2!1sen!2sid!4v1778058504659!5m2!1sen!2sid",
-        story: [],
+        story: [
+            "On 12 April 2026, a friend invited me to visit Vihara Ratana Stupa Agung for a pujabakti during Cheng Beng. Cheng Beng is a Chinese tradition to honor ancestors. In the Mahayana Buddhist tradition, it's usually observed through an avamanggala pujabakti, where merit is dedicated to unseen beings who may need help.",
+            "At first, I thought the vihara would be small and simple. Turns out, I was wrong. The place was actually quite bigger than I expected.",
+        ],
     },
     {
         id: "vihara-vimala-dharma-gunungsitoli",
@@ -56,7 +64,12 @@ export const siteList: BuddhistSite[] = [
         time: "18 April 2026",
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.8096750290297!2d97.6184535!3d1.2883666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3025fb347e6f1601%3A0x9ab8e928c4c750e6!2sVihara%20Vimala%20Dharma!5e0!3m2!1sen!2sid!4v1778058552199!5m2!1sen!2sid",
-        story: [],
+        story: [
+            "I'm not sure if I'll ever get the chance to visit this vihara again, so this is my way of holding on to that memory.",
+            "A year ago, on 18 April 2025, I went to Nias with my team from Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara to conduct the GABI Nias 2025 training at Vihara Vimala Dharma in Gunungsitoli.",
+            "The moment I arrived, the main gate immediately caught my attention. The architecture was striking. Both the gate and the third floor of the vihara were carved with local Nias cultural elements. It wasn't just a religious place, it felt deeply connected to the identity of the region.",
+            "If you're curious about what we did there, you can check out the full story in the link here.",
+        ],
     },
     {
         id: "vihara-buddha-loka-deli-serdang",
@@ -67,7 +80,10 @@ export const siteList: BuddhistSite[] = [
         time: "1 May 2026",
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.2744888787465!2d98.561002!3d3.2819843000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30311c12aaf147d9%3A0x102f81d6a3ab1e86!2sVihara%20Buddha%20Loka!5e0!3m2!1sen!2sid!4v1778058575581!5m2!1sen!2sid",
-        story: [],
+        story: [
+            "During my trip to Sibolangit on 1 May 2026, I stopped by Vihara Buddha Loka. The complex itself is quite large and spacious, more than I expected",
+            "Unfortunately, I didn't get the chance to go inside the baktisala, so I could only explore the outer area. Still, the scale of the place alone already left an impression.",
+        ],
     },
     {
         id: "vihara-buddha-berastagi-karo",
@@ -78,7 +94,9 @@ export const siteList: BuddhistSite[] = [
         time: "1 May 2026",
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.6027079168!2d98.5083312!3d3.1985962999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303102eb6e21f3bb%3A0x1beaf4c1931bddfc!2sVihara%20Buddha%20Berastagi!5e0!3m2!1sen!2sid!4v1778058600885!5m2!1sen!2sid",
-        story: [],
+        story: [
+            "After visiting Vihara Buddha Loka in Sibolangit, we continued our trip to Vihara Buddha Berastagi. The vihara is located not far from the Berastagi fruit market, so it's quite easy to find and sits in a pretty lively area.",
+        ],
     },
     {
         id: "vihara-saddhavana-dairi",
@@ -89,6 +107,10 @@ export const siteList: BuddhistSite[] = [
         time: "1 May 2026",
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15941.081099882296!2d98.3620138!3d2.7359914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30303751a98b67c5%3A0xc4d8c85073eba803!2sVihara%20Saddhavana!5e0!3m2!1sen!2sid!4v1778058629889!5m2!1sen!2sid",
-        story: [],
+        story: [
+            "On 1 May 2026, we finally arrived at a vihara that my friend, Herry, had been looking forward to visiting for a long time. This place was a legacy of Eyang (Y.M. Jinadhammo, Mahathera).",
+            "When we got there, we took a moment to do a short pujabakti and meditation, as a way to pay respect and remember his contributions.",
+            "The complex itself is quite large, but what really stands out is the location. Sitting on a hill near Lake Toba, the view feels calm and refreshing. It's the kind of place that naturally makes you slow down, perfect for retreats, or even just to step away from the noise for a while.",
+        ],
     },
 ];
