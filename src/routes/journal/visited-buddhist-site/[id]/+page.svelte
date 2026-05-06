@@ -29,7 +29,7 @@
 
 <section class="text-gray h-full min-h-screen w-full text-sm md:text-lg">
     <div
-        class="flex flex-col gap-4 px-16 pt-56 min-[1536px]:px-[480px] sm:px-36 xl:px-80"
+        class="flex flex-col gap-4 px-16 pt-48 min-[1536px]:px-[480px] sm:px-36 xl:px-80"
         data-aos="fade-right"
         data-aos-duration="2000"
     >
@@ -43,10 +43,12 @@
             </p>
         </div>
         <div>
-            <h3 class="text-xl font-semibold uppercase sm:text-2xl">Stories</h3>
-            <div>
+            <h3 class="text-xl font-semibold uppercase sm:text-2xl">
+                My Experience
+            </h3>
+            <div class="flex flex-col sm:block">
                 <div
-                    class="border-lightgray float-left mr-4 mb-2 flex h-58 w-54 items-center justify-center rounded-sm border"
+                    class="border-lightgray float-left mr-4 mb-2 flex h-58 w-full items-center justify-center rounded-sm border md:w-54"
                 >
                     <img
                         src={data.pic}
@@ -70,10 +72,9 @@
                 <iframe
                     title={data.name}
                     src={data.embedMap}
-                    style="border:0;"
+                    class="h-[300px] w-full"
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
-                    class="max-h-75 max-w-100"
                 ></iframe>
             </div>
         </div>
