@@ -21,6 +21,14 @@ import revouLogo from "$lib/assets/image/logo/revou.png";
 import sekberLogo from "$lib/assets/image/logo/sekber.webp";
 import smrajaLogo from "$lib/assets/image/logo/smraja.webp";
 
+import viharaAvalokitesvaraSibolga from "$lib/assets/image/vihara/vihara_avalokitesvara_sibolga.webp";
+import viharaBuddhaBerastagiKaro from "$lib/assets/image/vihara/vihara_buddha_berastagi_karo.webp";
+import viharaBuddhaLokaDeliserdang from "$lib/assets/image/vihara/vihara_buddha_loka_deliserdang.webp";
+import viharaRatanaStupaAgungMedan from "$lib/assets/image/vihara/vihara_ratana_stupa_agung_medan.webp";
+import viharaSaddhavanaDairi from "$lib/assets/image/vihara/vihara_saddhavana_dairi.webp";
+import viharaSamuderaMahaDharaniMedan from "$lib/assets/image/vihara/vihara_samudera_maha_dharani_medan.webp";
+import viharaVimalaDharmaGunungsitoli from "$lib/assets/image/vihara/vihara_vimala_dharma_gunungsitoli.webp";
+
 export const imageRender = {
     // Icons
     expressIcon,
@@ -46,4 +54,13 @@ export const imageRender = {
     sekberLogo,
     mikroskilLogo,
     onemitsLogo,
+
+    // Vihara
+    viharaAvalokitesvaraSibolga,
+    viharaSamuderaMahaDharaniMedan,
+    viharaRatanaStupaAgungMedan,
+    viharaVimalaDharmaGunungsitoli,
+    viharaBuddhaLokaDeliserdang,
+    viharaBuddhaBerastagiKaro,
+    viharaSaddhavanaDairi,
 };

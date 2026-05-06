@@ -40,4 +40,13 @@ export const journalMenu: JournalMenu[] = [
         type: ["Spiritual"],
         keyword: ["Christian", "Buddhism", "Spiritual"],
     },
+    {
+        title: "Visited Buddhist Site",
+        link: "/journal/visited-buddhist-site",
+        description: "Buddhism is always acculturated with local culture",
+        time: "6 May 2026",
+        icon: { src: "fa-regular fa-vihara", type: "fa" },
+        type: ["Spiritual"],
+        keyword: ["Vihara", "Monastery", "Temple", "Buddhism", "Spiritual"],
+    },
 ];

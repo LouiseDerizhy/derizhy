@@ -139,3 +139,14 @@ export type SearchBarTypeCount = {
     type: string;
     count: number;
 };
+
+export type BuddhistSite = {
+    id: string;
+    name: string;
+    location: string;
+    locationLink: string;
+    pic: string;
+    time: string;
+    embedMap: string;
+    story: string[];
+};
