@@ -55,7 +55,7 @@
             </h3>
             <div class="flex flex-col sm:block">
                 <div
-                    class="border-lightgray float-left mr-4 mb-2 flex h-58 w-full items-center justify-center rounded-sm border md:w-54"
+                    class="float-left mr-4 mb-2 flex h-88 w-full items-center justify-center rounded-sm md:w-72"
                 >
                     <img
                         src={data.pic}

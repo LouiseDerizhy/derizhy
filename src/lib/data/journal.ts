@@ -3,14 +3,23 @@ import type { JournalMenu } from "$lib/type/data-type";
 
 export const journalMenu: JournalMenu[] = [
     {
-        title: "My Organization Life",
-        link: "/journal/my-organization-life",
+        title: "Visited Buddhist Site",
+        link: "/journal/visited-buddhist-site",
+        description: "Buddhism is always acculturated with local culture",
+        time: "6 May 2026",
+        icon: { src: "fa-regular fa-vihara", type: "fa" },
+        type: ["Spiritual"],
+        keyword: ["Vihara", "Monastery", "Temple", "Buddhism", "Spiritual"],
+    },
+    {
+        title: "The Way of Life",
+        link: "/journal/the-way-of-life",
         description:
-            "I don't want to have an ordinary life, so I found a memorable life journey",
-        time: "10 October 2025",
-        icon: { src: "fa-regular fa-users", type: "fa" },
-        type: ["Organization", "Hobbies"],
-        keyword: ["Organization"],
+            "He was too OG that everyone started thinking he was a god",
+        time: "25 October 2025",
+        icon: { src: "fa-regular fa-hand-holding-seeding", type: "fa" },
+        type: ["Spiritual"],
+        keyword: ["Christian", "Buddhism", "Spiritual"],
     },
     {
         title: "Speedcubing",
@@ -31,22 +40,13 @@ export const journalMenu: JournalMenu[] = [
         ],
     },
     {
-        title: "The Way of Life",
-        link: "/journal/the-way-of-life",
+        title: "My Organization Life",
+        link: "/journal/my-organization-life",
         description:
-            "He was too OG that everyone started thinking he was a god",
-        time: "25 October 2025",
-        icon: { src: "fa-regular fa-hand-holding-seeding", type: "fa" },
-        type: ["Spiritual"],
-        keyword: ["Christian", "Buddhism", "Spiritual"],
-    },
-    {
-        title: "Visited Buddhist Site",
-        link: "/journal/visited-buddhist-site",
-        description: "Buddhism is always acculturated with local culture",
-        time: "6 May 2026",
-        icon: { src: "fa-regular fa-vihara", type: "fa" },
-        type: ["Spiritual"],
-        keyword: ["Vihara", "Monastery", "Temple", "Buddhism", "Spiritual"],
+            "I don't want to have an ordinary life, so I found a memorable life journey",
+        time: "10 October 2025",
+        icon: { src: "fa-regular fa-users", type: "fa" },
+        type: ["Organization", "Hobbies"],
+        keyword: ["Organization"],
     },
 ];
