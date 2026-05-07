@@ -1,21 +1,37 @@
 <script lang="ts">
     import type { SearchBarTypeCount } from "$lib/type/data-type";
 
-    type SearchBarProps = {
-        search: string;
-        selectedType: string[];
-        types: SearchBarTypeCount[];
-        placeholder: string;
-    };
+    type SearchBarProps =
+        | {
+              search: string;
+              placeholder: string;
+              disableType: true;
+
+              selectedType?: string[];
+              types?: SearchBarTypeCount[];
+          }
+        | {
+              search: string;
+              placeholder: string;
+              disableType: false;
+
+              selectedType: string[];
+              types: SearchBarTypeCount[];
+          };
 
     let {
         search = $bindable(),
         selectedType = $bindable(),
         types,
         placeholder = "Search...",
+        disableType = false,
     }: SearchBarProps = $props();
 
     function toggleType(type: string) {
+        if (!selectedType) {
+            return;
+        }
+
         if (type === "All") {
             selectedType = ["All"];
             return;
@@ -58,25 +74,27 @@
         </button>
     </div>
 
-    <div
-        class="mt-4 flex flex-wrap justify-center gap-2 sm:mt-6 sm:justify-start sm:gap-3 md:gap-4"
-    >
-        {#each types as item (item)}
-            <button
-                class={`text-gray flex gap-2 rounded-full px-3 py-1.5 text-xs leading-6 duration-300 sm:px-4 sm:py-2 sm:text-sm ${
-                    selectedType.includes(item.type)
-                        ? "bg-yellow outline-yellow hover:bg-yellow/80 outline-1 outline-offset-4"
-                        : "bg-white hover:bg-white/80"
-                }`}
-                onclick={() => toggleType(item.type)}
-            >
-                {item.type}
-                <span
-                    class="bg-maroon flex h-6 w-6 items-center justify-center rounded-full text-white"
+    {#if !disableType && selectedType}
+        <div
+            class="mt-4 flex flex-wrap justify-center gap-2 sm:mt-6 sm:justify-start sm:gap-3 md:gap-4"
+        >
+            {#each types as item (item)}
+                <button
+                    class={`text-gray flex gap-2 rounded-full px-3 py-1.5 text-xs leading-6 duration-300 sm:px-4 sm:py-2 sm:text-sm ${
+                        selectedType.includes(item.type)
+                            ? "bg-yellow outline-yellow hover:bg-yellow/80 outline-1 outline-offset-4"
+                            : "bg-white hover:bg-white/80"
+                    }`}
+                    onclick={() => toggleType(item.type)}
                 >
-                    {item.count}
-                </span>
-            </button>
-        {/each}
-    </div>
+                    {item.type}
+                    <span
+                        class="bg-maroon flex h-6 w-6 items-center justify-center rounded-full text-white"
+                    >
+                        {item.count}
+                    </span>
+                </button>
+            {/each}
+        </div>
+    {/if}
 </div>

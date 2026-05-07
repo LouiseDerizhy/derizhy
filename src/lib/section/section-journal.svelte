@@ -59,6 +59,7 @@
                 bind:selectedType
                 types={typeCount(journalMenu)}
                 placeholder="Search Journal..."
+                disableType={false}
             />
             <div
                 class="text-gray mt-16 mb-5 ml-2"

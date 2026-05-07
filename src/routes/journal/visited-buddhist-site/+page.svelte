@@ -1,9 +1,29 @@
 <script lang="ts">
+    import SearchBar from "$lib/custom-components/search-bar.svelte";
     import {
         buddhisSiteIntro,
         siteList,
     } from "$lib/data/journal/buddhist-site";
+    import type { BuddhistSite } from "$lib/type/data-type";
     import { parseBoldHTML } from "$lib/utils";
+
+    let search: string = $state("");
+
+    let buddhistSite: BuddhistSite[] = $derived.by(() => {
+        let filtered = siteList;
+
+        if (search.trim().length > 0) {
+            const query = search.toLowerCase();
+
+            filtered = filtered.filter((item) => {
+                const inName = item.name.toLowerCase().includes(query);
+                const inLocation = item.location.toLowerCase().includes(query);
+                return inName || inLocation;
+            });
+        }
+
+        return filtered;
+    });
 </script>
 
 <section class="text-gray h-full min-h-screen w-full text-sm md:text-lg">
@@ -34,10 +54,23 @@
             <h3 class="mb-2 text-xl font-semibold uppercase sm:text-2xl">
                 My Visited Buddhist Site List
             </h3>
+            <SearchBar
+                bind:search
+                placeholder="Search Site..."
+                disableType={true}
+            />
+            <div
+                class="text-gray mt-16 mb-5 ml-2"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+            >
+                Showing <span class="font-semibold">{buddhistSite.length}</span>
+                site{buddhistSite.length > 1 ? "s" : ""}
+            </div>
             <div
                 class="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-6 xl:gap-12"
             >
-                {#each siteList as item (item.name)}
+                {#each buddhistSite as item (item.name)}
                     <div
                         class="bg-gray shadow-gray flex h-auto flex-col rounded-sm text-white shadow-lg"
                     >

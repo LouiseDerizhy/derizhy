@@ -73,6 +73,7 @@
                 bind:selectedType
                 types={typeCount(project)}
                 placeholder="Search Projects..."
+                disableType={false}
             />
             <div
                 class="text-gray mt-16 mb-5 ml-2"
