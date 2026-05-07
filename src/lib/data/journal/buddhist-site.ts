@@ -66,9 +66,10 @@ export const siteList: BuddhistSite[] = [
             "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.8096750290297!2d97.6184535!3d1.2883666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3025fb347e6f1601%3A0x9ab8e928c4c750e6!2sVihara%20Vimala%20Dharma!5e0!3m2!1sen!2sid!4v1778058552199!5m2!1sen!2sid",
         story: [
             "I'm not sure if I'll ever get the chance to visit this vihara again, so this is my way of holding on to that memory.",
-            "A year ago, on 18 April 2025, I went to Nias with my team from Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara to conduct the GABI Nias 2025 training at Vihara Vimala Dharma in Gunungsitoli.",
+            "A year ago, on 18 April 2025, I went to Nias with my team from Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara to conduct Pelatihan Anak GABI Nias 2025 (Buddhist kids spiritual training) at Vihara Vimala Dharma in Gunungsitoli.",
             "The moment I arrived, the main gate immediately caught my attention. The architecture was striking. Both the gate and the third floor of the vihara were carved with local Nias cultural elements. It wasn't just a religious place, it felt deeply connected to the identity of the region.",
-            "If you're curious about what we did there, you can check out the full story in the link here.",
+            "If you're curious about what we did there, you can check out the full story in the link <a href='https://buddhayana.or.id/berita/kegiatan/1040/pelatihan-anak-gabi-nias-2025' class='text-maroon hover:text-maroon/80 decoration-maroon/70 hover:decoration-maroon inline-flex items-center gap-1 font-medium underline underline-offset-4 transition-colors duration-200' target='_blank'>here</a>.",
+            "Click <a href='https://youtu.be/08y6l-DdzDU?si=kGBPtilQxVFPM-TU' class='text-maroon hover:text-maroon/80 decoration-maroon/70 hover:decoration-maroon inline-flex items-center gap-1 font-medium underline underline-offset-4 transition-colors duration-200' target='_blank'>here</a> you'd like to watch our After Movie Pelatihan Anak GABI Nias 2025.",
         ],
     },
     {
@@ -110,7 +111,7 @@ export const siteList: BuddhistSite[] = [
         story: [
             "On 1 May 2026, we finally arrived at a vihara that my friend, Herry, had been looking forward to visiting for a long time. This place was a legacy of Eyang (Y.M. Jinadhammo, Mahathera).",
             "When we got there, we took a moment to do a short pujabakti and meditation, as a way to pay respect and remember his contributions.",
-            "The complex itself is quite large, but what really stands out is the location. Sitting on a hill near Lake Toba, the view feels calm and refreshing. It's the kind of place that naturally makes you slow down, perfect for retreats, or even just to step away from the noise for a while.",
+            "The complex itself is quite large, but what really stands out is the location. Sitting on a hill with all green nature view, feels calm and refreshing. It's the kind of place that naturally makes you slow down, perfect for retreats, or even just to step away from the noise for a while.",
         ],
     },
 ];
