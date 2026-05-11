@@ -9,6 +9,7 @@
 
               selectedType?: string[];
               types?: SearchBarTypeCount[];
+              enableDataAos?: boolean;
           }
         | {
               search: string;
@@ -17,6 +18,7 @@
 
               selectedType: string[];
               types: SearchBarTypeCount[];
+              enableDataAos?: boolean;
           };
 
     let {
@@ -25,6 +27,7 @@
         types,
         placeholder = "Search...",
         disableType = false,
+        enableDataAos = true,
     }: SearchBarProps = $props();
 
     function toggleType(type: string) {
@@ -51,8 +54,8 @@
 
 <div
     class="shadow-gray bg-gray relative rounded-sm p-6 shadow-lg sm:p-10 md:p-12"
-    data-aos="fade-up"
-    data-aos-duration="2000"
+    data-aos={enableDataAos ? "fade-up" : ""}
+    data-aos-duration={enableDataAos ? 2000 : 0}
 >
     <div class="relative flex items-center justify-center">
         <span

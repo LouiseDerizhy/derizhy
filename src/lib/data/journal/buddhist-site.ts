@@ -11,6 +11,21 @@ export const buddhisSiteIntro: JournalData = {
 
 export const siteList: BuddhistSite[] = [
     {
+        id: "vihara-maha-dana-tebing-tinggi",
+        name: "Vihara Maha Dana",
+        location: "Tebing Tinggi, Indonesia",
+        locationLink: "https://maps.app.goo.gl/eT6QKzLS7wTNxuMJA",
+        pic: imageRender.viharaMahaDanaTebingtinggi,
+        time: "9 May 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.0805306836096!2d99.15999257602878!3d3.330281396644513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303161b73f74a35b%3A0xeb589c3a01573c2d!2sVihara%20Maha%20Dana!5e0!3m2!1sen!2sid!4v1778466541642!5m2!1sen!2sid",
+        story: [
+            "On 9 May 2026, my team from Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara and I traveled to Tebing Tinggi and arrived at Vihara Maha Dana for a visit.",
+            "The vihara looks incredibly grand, with strong Chinese style architecture dominated by shades of red. The first time I came here was back in 2022, but only as a short transit stop before heading to another location for Mukerda of MBI Sumut (Indonesia Buddhayana Council of North Sumatera). This time, though, I finally had the chance to properly explore the vihara all the way up to the main baktisala on the top floor.",
+            "Click <a href='https://buddhayana.or.id/berita/kegiatan/1263/kangen-mukerda-reuni-di-kunjungan-kerja-setebing-tinggi-dan-serdang-bedagai/' class='text-maroon hover:text-maroon/80 decoration-maroon/70 hover:decoration-maroon inline-flex items-center gap-1 font-medium underline underline-offset-4 transition-colors duration-200' target='_blank'>here</a> if you'd like to know more about what we did at Vihara Maha Dana.",
+        ],
+    },
+    {
         id: "vihara-saddhavana-dairi",
         name: "Vihara Saddhavana",
         location: "Sitinjo - Dairi, Indonesia",

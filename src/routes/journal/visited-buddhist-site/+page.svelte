@@ -58,12 +58,9 @@
                 bind:search
                 placeholder="Search Site..."
                 disableType={true}
+                enableDataAos={false}
             />
-            <div
-                class="text-gray mt-16 mb-5 ml-2"
-                data-aos="fade-up"
-                data-aos-duration="2000"
-            >
+            <div class="text-gray mt-16 mb-5 ml-2">
                 Showing <span class="font-semibold">{buddhistSite.length}</span>
                 site{buddhistSite.length > 1 ? "s" : ""}
             </div>
