@@ -12,11 +12,13 @@
     import "../app.css";
 
     let { children } = $props();
-    let pageName = $derived.by(() => {
-        const pathName = page.url.pathname;
-        let result = menu.find((item) => item.link === pathName)?.title;
-        return result ? " - " + result : "";
-    });
+
+    let menuMetaData = $derived(
+        menu.find((item) => item.link === page.url.pathname),
+    );
+
+    let metaTitle = $derived(menuMetaData?.title);
+    let metaDescription = $derived(menuMetaData?.description);
 
     onMount(() => {
         AOS.init();
@@ -25,7 +27,8 @@
 
 <svelte:head>
     <link rel="icon" href={favicon} />
-    <title>Derizhy {pageName}</title>
+    <title>Derizhy {metaTitle ? " - " + metaTitle : ""}</title>
+    <meta name="description" content={metaDescription} />
 </svelte:head>
 
 <ProgressBar />

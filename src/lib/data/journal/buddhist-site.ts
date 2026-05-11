@@ -12,7 +12,9 @@ export const buddhisSiteIntro: JournalData = {
 export const siteList: BuddhistSite[] = [
     {
         id: "vihara-maha-dana-tebing-tinggi",
-        name: "Vihara Maha Dana",
+        link: "/journal/visited-buddhist-site/vihara-maha-dana-tebing-tinggi",
+        description: "Visit to Vihara Maha Dana, Tebing Tinggi, Indonesia",
+        title: "Vihara Maha Dana",
         location: "Tebing Tinggi, Indonesia",
         locationLink: "https://maps.app.goo.gl/eT6QKzLS7wTNxuMJA",
         pic: imageRender.viharaMahaDanaTebingtinggi,
@@ -27,7 +29,9 @@ export const siteList: BuddhistSite[] = [
     },
     {
         id: "vihara-saddhavana-dairi",
-        name: "Vihara Saddhavana",
+        link: "/journal/visited-buddhist-site/vihara-saddhavana-dairi",
+        description: "Visit to Vihara Saddhavana, Sitinjo - Dairi, Indonesia",
+        title: "Vihara Saddhavana",
         location: "Sitinjo - Dairi, Indonesia",
         locationLink: "https://maps.app.goo.gl/jFG82XVvPHgjiyFG6",
         pic: imageRender.viharaSaddhavanaDairi,
@@ -42,7 +46,10 @@ export const siteList: BuddhistSite[] = [
     },
     {
         id: "vihara-buddha-berastagi-karo",
-        name: "Vihara Buddha Berastagi",
+        link: "/journal/visited-buddhist-site/vihara-buddha-berastagi-karo",
+        description:
+            "Visit to Vihara Buddha Berastagi, Berastagi - Karo, Indonesia",
+        title: "Vihara Buddha Berastagi",
         location: "Berastagi - Karo, Indonesia",
         locationLink: "https://maps.app.goo.gl/ngGJ84ynkLJR3JvF8",
         pic: imageRender.viharaBuddhaBerastagiKaro,
@@ -55,7 +62,10 @@ export const siteList: BuddhistSite[] = [
     },
     {
         id: "vihara-buddha-loka-deli-serdang",
-        name: "Vihara Buddha Loka",
+        link: "/journal/visited-buddhist-site/vihara-buddha-loka-deli-serdang",
+        description:
+            "Visit to Vihara Buddha Loka, Sibolangit - Deli Serdang, Indonesia",
+        title: "Vihara Buddha Loka",
         location: "Sibolangit - Deli Serdang, Indonesia",
         locationLink: "https://maps.app.goo.gl/JfRLhdpxCwZWdXDG9",
         pic: imageRender.viharaBuddhaLokaDeliserdang,
@@ -69,7 +79,11 @@ export const siteList: BuddhistSite[] = [
     },
     {
         id: "vihara-vimala-dharma-gunungsitoli",
-        name: "Vihara Vimala Dharma",
+        link: "/journal/visited-buddhist-site/vihara-vimala-dharma-gunungsitoli",
+        description:
+            "Visit to Vihara Vimala Dharma, Gunungsitoli - Nias, Indonesia",
+
+        title: "Vihara Vimala Dharma",
         location: "Gunungsitoli - Nias, Indonesia",
         locationLink: "https://maps.app.goo.gl/iN4T9QBtdDV1zm5E9",
         pic: imageRender.viharaVimalaDharmaGunungsitoli,
@@ -86,7 +100,9 @@ export const siteList: BuddhistSite[] = [
     },
     {
         id: "vihara-ratana-stupa-agung-medan",
-        name: "Vihara Ratana Stupa Agung",
+        link: "/journal/visited-buddhist-site/vihara-ratana-stupa-agung-medan",
+        description: "Visit to Vihara Ratana Stupa Agung, Medan, Indonesia",
+        title: "Vihara Ratana Stupa Agung",
         location: "Medan, Indonesia",
         locationLink: "https://maps.app.goo.gl/ZYPe3Nb171wRFQxU7",
         pic: imageRender.viharaRatanaStupaAgungMedan,
@@ -99,11 +115,13 @@ export const siteList: BuddhistSite[] = [
         ],
     },
     {
-        id: "vihara-samudera-maha-dharani-medan",
-        name: "Vihara Samudera Maha Dharani",
+        id: "samudera-maha-dharani-medan",
+        link: "/journal/visited-buddhist-site/samudera-maha-dharani-medan",
+        description: "Visit to Samudera Maha Dharani, Medan, Indonesia",
+        title: "Samudera Maha Dharani",
         location: "Medan, Indonesia",
         locationLink: "https://maps.app.goo.gl/5FbJe9YnA49BhdTx9",
-        pic: imageRender.viharaSamuderaMahaDharaniMedan,
+        pic: imageRender.samuderaMahaDharaniMedan,
         time: "8 April 2026",
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.933335403601!2d98.66695879999999!3d3.6027411000000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031310057d50745%3A0xaca8f66100ce4b78!2sYayasan%20Samudera%20Maha%20Dharani!5e0!3m2!1sen!2sid!4v1778058466653!5m2!1sen!2sid",
@@ -116,7 +134,9 @@ export const siteList: BuddhistSite[] = [
     },
     {
         id: "vihara-avalokitesvara-sibolga",
-        name: "Vihara Avalokitesvara",
+        link: "/journal/visited-buddhist-site/vihara-avalokitesvara-sibolga",
+        description: "Visit to Vihara Avalokitesvara, Sibolga, Indonesia",
+        title: "Vihara Avalokitesvara",
         location: "Sibolga, Indonesia",
         locationLink: "https://maps.app.goo.gl/fQfYSYwJVtyPK1g1A",
         pic: imageRender.viharaAvalokitesvaraSibolga,

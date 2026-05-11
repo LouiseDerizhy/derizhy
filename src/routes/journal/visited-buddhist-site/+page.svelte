@@ -16,7 +16,7 @@
             const query = search.toLowerCase();
 
             filtered = filtered.filter((item) => {
-                const inName = item.name.toLowerCase().includes(query);
+                const inName = item.title.toLowerCase().includes(query);
                 const inLocation = item.location.toLowerCase().includes(query);
                 return inName || inLocation;
             });
@@ -67,7 +67,7 @@
             <div
                 class="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-6 xl:gap-12"
             >
-                {#each buddhistSite as item (item.name)}
+                {#each buddhistSite as item (item.title)}
                     <div
                         class="bg-gray shadow-gray flex h-auto flex-col rounded-sm text-white shadow-lg"
                     >
@@ -76,7 +76,7 @@
                         >
                             <img
                                 src={item.pic}
-                                alt={item.name}
+                                alt={item.title}
                                 class="h-full w-full rounded-t-sm object-cover"
                             />
                         </div>
@@ -89,7 +89,7 @@
                                 </div>
                             </div>
                             <h3 class="text-base font-semibold">
-                                {item.name}
+                                {item.title}
                             </h3>
                             <a
                                 href={item.locationLink}

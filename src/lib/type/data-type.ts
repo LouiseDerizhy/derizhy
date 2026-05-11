@@ -9,6 +9,12 @@ export type Menu = {
     subMenu?: subMenu[];
 };
 
+export type MetaMenu = {
+    title: string;
+    link: string;
+    description: string;
+};
+
 export type IconImage = {
     src: string;
     type: "svg" | "fa";
@@ -99,10 +105,7 @@ export type JournalData = {
     paragraph: string[];
 };
 
-export type JournalMenu = {
-    title: string;
-    link: string;
-    description: string;
+export type JournalMenu = MetaMenu & {
     time: string;
     icon: IconImage;
     type: ("Hobbies" | "Organization" | "Spiritual" | "Science")[];
@@ -140,9 +143,8 @@ export type SearchBarTypeCount = {
     count: number;
 };
 
-export type BuddhistSite = {
+export type BuddhistSite = MetaMenu & {
     id: string;
-    name: string;
     location: string;
     locationLink: string;
     pic: string;

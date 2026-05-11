@@ -1,4 +1,6 @@
-import type { Menu } from "$lib/type/data-type";
+import type { Menu, MetaMenu } from "$lib/type/data-type";
+import { journalMenu } from "./journal";
+import { siteList } from "./journal/buddhist-site";
 
 export const menuForNav: Menu[] = [
     {
@@ -28,29 +30,24 @@ export const menuForNav: Menu[] = [
     },
 ];
 
-export const menu: Menu[] = [
+export const menu: MetaMenu[] = [
     {
         title: "",
         link: "/",
+        description:
+            "Louise Derizhy - A Software Engineer, Speecuber, and Public Speaker",
     },
     {
         title: "Portfolio",
         link: "/portfolio",
+        description:
+            "Louise Derizhy - Software Engineer specializing in full stack development with Svelte, Tailwind CSS, and TypeScript.",
     },
     {
         title: "Journal",
         link: "/journal",
+        description: "Just a random writing",
     },
-    {
-        title: "My Organization Life",
-        link: "/journal/my-organization-life",
-    },
-    {
-        title: "Speedcubing",
-        link: "/journal/speedcubing",
-    },
-    {
-        title: "The Painful Truth",
-        link: "/journal/the-painful-truth",
-    },
+    ...journalMenu,
+    ...siteList,
 ];

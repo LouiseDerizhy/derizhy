@@ -42,7 +42,7 @@
                 Back to Visited Buddhist Site Journal
             </a>
             <h2 class="text-3xl font-semibold uppercase sm:text-4xl">
-                {data.name}
+                {data.title}
             </h2>
             <p>
                 <span class="fa-regular fa-location-dot"></span>
@@ -59,7 +59,7 @@
                 >
                     <img
                         src={data.pic}
-                        alt={data.name}
+                        alt={data.title}
                         class="h-full w-full rounded-sm object-cover"
                     />
                 </div>
@@ -77,7 +77,7 @@
             </h3>
             <div>
                 <iframe
-                    title={data.name}
+                    title={data.title}
                     src={data.embedMap}
                     class="h-[300px] w-full"
                     loading="lazy"

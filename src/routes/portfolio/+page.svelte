@@ -8,10 +8,6 @@
 
 <svelte:head>
     <link rel="canonical" href="https://derizhy.com/portfolio" />
-    <meta
-        name="description"
-        content="Louise Derizhy — Software Engineer specializing in full stack development with Svelte, Tailwind CSS, and TypeScript."
-    />
 </svelte:head>
 
 <SectionProfile />
