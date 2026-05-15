@@ -21,6 +21,7 @@ import revouLogo from "$lib/assets/image/logo/revou.png";
 import sekberLogo from "$lib/assets/image/logo/sekber.webp";
 import smrajaLogo from "$lib/assets/image/logo/smraja.webp";
 
+import ehipassikoHouseMedan from "$lib/assets/image/vihara/ehipassiko_house_medan.webp";
 import samuderaMahaDharaniMedan from "$lib/assets/image/vihara/samudera_maha_dharani_medan.webp";
 import viharaAvalokitesvaraSibolga from "$lib/assets/image/vihara/vihara_avalokitesvara_sibolga.webp";
 import viharaBuddhaBerastagiKaro from "$lib/assets/image/vihara/vihara_buddha_berastagi_karo.webp";
@@ -65,4 +66,5 @@ export const imageRender = {
     viharaBuddhaBerastagiKaro,
     viharaSaddhavanaDairi,
     viharaMahaDanaTebingtinggi,
+    ehipassikoHouseMedan,
 };
