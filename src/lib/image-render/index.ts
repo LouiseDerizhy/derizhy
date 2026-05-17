@@ -29,6 +29,7 @@ import viharaBuddhaLokaDeliserdang from "$lib/assets/image/vihara/vihara_buddha_
 import viharaMahaDanaTebingtinggi from "$lib/assets/image/vihara/vihara_maha_dana_tebingtinggi.webp";
 import viharaRatanaStupaAgungMedan from "$lib/assets/image/vihara/vihara_ratana_stupa_agung_medan.webp";
 import viharaSaddhavanaDairi from "$lib/assets/image/vihara/vihara_saddhavana_dairi.webp";
+import viharaSakyamuniBuddhaSerdangBedagai from "$lib/assets/image/vihara/vihara_sakyamuni_buddha_serdang_bedagai.webp";
 import viharaVimalaDharmaGunungsitoli from "$lib/assets/image/vihara/vihara_vimala_dharma_gunungsitoli.webp";
 
 export const imageRender = {
@@ -67,4 +68,5 @@ export const imageRender = {
     viharaSaddhavanaDairi,
     viharaMahaDanaTebingtinggi,
     ehipassikoHouseMedan,
+    viharaSakyamuniBuddhaSerdangBedagai,
 };

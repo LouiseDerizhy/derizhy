@@ -74,7 +74,7 @@
             </div>
         {/if}
         <div
-            class="text-gray mt-6 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-8 xl:gap-16"
+            class="text-gray mt-6 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-8 max-sm:grid-cols-[repeat(auto-fill,minmax(200px,1fr))] xl:gap-16"
             data-aos="fade-up"
             data-aos-duration="2000"
         >

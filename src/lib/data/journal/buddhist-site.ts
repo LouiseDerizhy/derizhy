@@ -12,6 +12,23 @@ export const buddhisSiteIntro: JournalData = {
 
 export const siteList: BuddhistSite[] = [
     {
+        id: "vihara-sakyamuni-buddha-serdang-bedagai",
+        link: "/journal/visited-buddhist-site/vihara-sakyamuni-buddha-serdang-bedagai",
+        description:
+            "Visit to Vihara Sakyamuni Buddha, Sedang Bedagai, Indonesia",
+        title: "Vihara Sakyamuni Buddha",
+        location: "Serdang Bedagai, Indonesia",
+        locationLink: "https://maps.app.goo.gl/7Th5zU4JGaEmEFbt6",
+        pic: imageRender.viharaSakyamuniBuddhaSerdangBedagai,
+        time: "16 May 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.435841083104!2d99.1367017750667!3d3.4860143964883674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30315904b2ddd6ab%3A0xb54e7bda235794e8!2sVihara%20Sakyamuni%20Buddha!5e0!3m2!1sen!2sid!4v1779002746850!5m2!1sen!2sid",
+        story: [
+            "On 16 May 2026, my friend Ferdy and I represented **Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara** on a trip from Medan to Sei Rampah, Serdang Bedagai. After almost two hours on the road, we finally arrived at **Vihara Sakyamuni Buddha** for the Vesak celebration.",
+            "Vihara Sakyamuni Buddha has several unique architectural features, including a pendopo and a few kuti. The pendopo itself is located inside a small garden area, giving the vihara a calm and peaceful atmosphere. This vihara also has a youth organization called **Persaudaraan Muda-mudi Vihara Sakyamuni Buddha (PMVSB)**.",
+        ],
+    },
+    {
         id: "ehipassiko-house-medan",
         link: "/journal/visited-buddhist-site/ehipassiko-house-medan",
         description: "Visit to Ehipassiko House, Medan, Indonesia",
