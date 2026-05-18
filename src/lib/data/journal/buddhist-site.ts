@@ -36,7 +36,7 @@ export const siteList: BuddhistSite[] = [
         location: "Medan, Indonesia",
         locationLink: "https://maps.app.goo.gl/42LnGcpjGG5ciGxD9",
         pic: imageRender.ehipassikoHouseMedan,
-        time: "15 May 2026",
+        time: "14 May 2026",
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.9576800413497!2d98.69823517602963!3d3.5971732963769574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131adcafc53a5%3A0x470bbbd8ab149189!2sEhipassiko%20House%20Indonesia!5e0!3m2!1sen!2sid!4v1778816785053!5m2!1sen!2sid",
         story: [
