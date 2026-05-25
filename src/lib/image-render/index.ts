@@ -25,10 +25,11 @@ import ehipassikoHouseMedan from "$lib/assets/image/vihara/ehipassiko_house_meda
 import samuderaMahaDharaniMedan from "$lib/assets/image/vihara/samudera_maha_dharani_medan.webp";
 import viharaAvalokitesvaraSibolga from "$lib/assets/image/vihara/vihara_avalokitesvara_sibolga.webp";
 import viharaBuddhaBerastagiKaro from "$lib/assets/image/vihara/vihara_buddha_berastagi_karo.webp";
-import viharaBuddhaLokaDeliserdang from "$lib/assets/image/vihara/vihara_buddha_loka_deliserdang.webp";
+import viharaBuddhaLokaDeliserdang from "$lib/assets/image/vihara/vihara_buddha_loka_deli_serdang.webp";
 import viharaMahaDanaTebingtinggi from "$lib/assets/image/vihara/vihara_maha_dana_tebingtinggi.webp";
 import viharaRatanaStupaAgungMedan from "$lib/assets/image/vihara/vihara_ratana_stupa_agung_medan.webp";
 import viharaSaddhavanaDairi from "$lib/assets/image/vihara/vihara_saddhavana_dairi.webp";
+import viharaSakyamuniBuddhaITBCDeliSerdang from "$lib/assets/image/vihara/vihara_sakyamuni_buddha_itbc_deli_serdang.webp";
 import viharaSakyamuniBuddhaSerdangBedagai from "$lib/assets/image/vihara/vihara_sakyamuni_buddha_serdang_bedagai.webp";
 import viharaVimalaDharmaGunungsitoli from "$lib/assets/image/vihara/vihara_vimala_dharma_gunungsitoli.webp";
 
@@ -69,4 +70,5 @@ export const imageRender = {
     viharaMahaDanaTebingtinggi,
     ehipassikoHouseMedan,
     viharaSakyamuniBuddhaSerdangBedagai,
+    viharaSakyamuniBuddhaITBCDeliSerdang,
 };

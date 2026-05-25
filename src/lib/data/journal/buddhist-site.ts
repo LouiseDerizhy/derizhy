@@ -12,10 +12,28 @@ export const buddhisSiteIntro: JournalData = {
 
 export const siteList: BuddhistSite[] = [
     {
+        id: "vihara-sakyamuni-buddha-itbc-deli-serdang",
+        link: "/journal/visited-buddhist-site/vihara-sakyamuni-buddha-itbc-deli-serdang",
+        description:
+            "Visit to Vihara Sakyamuni Buddha - ITBC, Deli Serdang, Indonesia",
+        title: "Vihara Sakyamuni Buddha - Indonesia Theravada Buddhist Centre (ITBC)",
+        location: "Deli Serdang, Indonesia",
+        locationLink: "https://maps.app.goo.gl/jMa75iyZJm85prRx6",
+        pic: imageRender.viharaSakyamuniBuddhaITBCDeliSerdang,
+        time: "24 May 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.4437208238888!2d98.69944227570467!3d3.6387723991803944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303133f9eeef8373%3A0x7e09465442db0031!2sSakyamuni%20Buddha%20Temple%20ITBC!5e0!3m2!1sen!2sid!4v1779676508783!5m2!1sen!2sid",
+        story: [
+            "On 24 May 2026, I went to **ITBC** to participate in a dhammadesana competition. I have visited this vihara for several times. Most people simply call it ITBC. This vihara also has a youth organization called **PMV Sakyamuni Buddha - Indonesia Theravada Buddhist Centre (PMMITBC)**.",
+            "Located in the **Cemara Asri** area, one of the more elite neighborhoods in Medan, the vihara has a large complex with several buildings such as **Dwi Dharmasala** and **Eka Dharmasala**. There's also a building for Sunday school and a temple called **Candi Somdet Nyanasamvara**.",
+            "I actually have quite a lot of memories connected to this place. Back in 2024, I attended the inauguration of **Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara here**. I also joined a Dharma talk competition and unexpectedly won 3rd place. Besides that, I was also part of the committee for **Dhamma Vidya XI**, a Buddhist spiritual training program for children that was held here. I've been invited to several other events held at this vihara over the years.",
+        ],
+    },
+    {
         id: "vihara-sakyamuni-buddha-serdang-bedagai",
         link: "/journal/visited-buddhist-site/vihara-sakyamuni-buddha-serdang-bedagai",
         description:
-            "Visit to Vihara Sakyamuni Buddha, Sedang Bedagai, Indonesia",
+            "Visit to Vihara Sakyamuni Buddha, Serdang Bedagai, Indonesia",
         title: "Vihara Sakyamuni Buddha",
         location: "Serdang Bedagai, Indonesia",
         locationLink: "https://maps.app.goo.gl/7Th5zU4JGaEmEFbt6",
