@@ -51,7 +51,7 @@
         </div>
         <div>
             <h3 class="text-xl font-semibold uppercase sm:text-2xl">
-                My Experience
+                My Story About It
             </h3>
             <div class="flex flex-col sm:block">
                 <div

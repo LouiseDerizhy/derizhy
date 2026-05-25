@@ -78,6 +78,7 @@
                                 src={item.pic}
                                 alt={item.title}
                                 class="h-full w-full rounded-t-sm object-cover"
+                                loading="lazy"
                             />
                         </div>
                         <div class="flex grow flex-col p-6">
