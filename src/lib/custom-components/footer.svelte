@@ -57,6 +57,6 @@
                 </div>
             </div>
         </div>
-        <h2 class="mx-auto my-4 text-center">© 2025 Louise Derizhy</h2>
+        <h2 class="mx-auto my-4 text-center">© 2026 Louise Derizhy</h2>
     </div>
 </footer>
