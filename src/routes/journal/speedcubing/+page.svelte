@@ -10,6 +10,13 @@
         data-aos-duration="2000"
     >
         <div class="border-b-2">
+            <a
+                href="./"
+                class="mb-4 inline-block transition-transform duration-300 hover:-translate-x-2.5"
+            >
+                <span class="fa-regular fa-chevron-left"></span>
+                Back to Journal
+            </a>
             <h2 class="text-3xl font-semibold uppercase sm:text-4xl">
                 Speedcubing
             </h2>
