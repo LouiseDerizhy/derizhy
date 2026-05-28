@@ -151,4 +151,11 @@ export type BuddhistSite = MetaMenu & {
     time: string;
     embedMap: string;
     story: string[];
+    timeline: BuddhistSiteTimeline[];
+};
+
+type BuddhistSiteTimeline = {
+    time: string;
+    event: string;
+    link?: string;
 };

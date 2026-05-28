@@ -175,6 +175,10 @@
         content: "\f0e0";
     }
 
+    .fa-eye::before {
+        content: "\f06e";
+    }
+
     .fa-facebook-f::before {
         content: "\f39e";
     }

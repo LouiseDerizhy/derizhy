@@ -73,6 +73,72 @@
         </div>
         <div>
             <h3 class="text-xl font-semibold uppercase sm:text-2xl">
+                Visit Timeline
+            </h3>
+            <div class="flex flex-col sm:block">
+                <div
+                    class="border-gray overflow-x-auto rounded-sm border bg-white shadow-lg"
+                >
+                    <table class="text-gray min-w-full border-collapse text-sm">
+                        <thead class="bg-gray text-white">
+                            <tr>
+                                <th
+                                    class="border-gray text-md border-b px-6 py-5 text-left font-semibold uppercase"
+                                >
+                                    Time
+                                </th>
+                                <th
+                                    class="border-gray text-md border-b px-6 py-5 text-left font-semibold uppercase"
+                                >
+                                    Event
+                                </th>
+                                <th
+                                    class="border-gray text-md border-b px-6 py-5 text-left font-semibold uppercase"
+                                >
+                                    Link
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {#each data.timeline as timeline (timeline.time)}
+                                <tr
+                                    class="border-b border-zinc-100 transition-colors duration-200 hover:bg-zinc-50"
+                                >
+                                    <td class="px-6 py-5 align-top">
+                                        <span
+                                            class="text-gray bg-yellow inline-flex rounded-full px-3 py-1.5 text-xs whitespace-nowrap"
+                                        >
+                                            {timeline.time}
+                                        </span>
+                                    </td>
+                                    <td
+                                        class="text-gray max-w-lg px-6 py-5 align-top leading-7"
+                                    >
+                                        {timeline.event}
+                                    </td>
+                                    <td class="px-6 py-5 align-top">
+                                        {#if timeline.link}
+                                            <a
+                                                href={timeline.link}
+                                                target="_blank"
+                                                class="cursor-pointer"
+                                                aria-label={timeline.link}
+                                            >
+                                                <span
+                                                    class="fa-regular fa-eye text-lg duration-300 hover:text-xl"
+                                                ></span>
+                                            </a>
+                                        {/if}
+                                    </td>
+                                </tr>
+                            {/each}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 class="text-xl font-semibold uppercase sm:text-2xl">
                 Google Maps
             </h3>
             <div>
