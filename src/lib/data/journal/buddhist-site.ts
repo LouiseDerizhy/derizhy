@@ -12,6 +12,40 @@ export const buddhisSiteIntro: JournalData = {
 
 export const siteList: BuddhistSite[] = [
     {
+        id: "maha-aura-sala-buddhist-center-medan",
+        link: "/journal/visited-buddhist-site/maha-aura-sala-buddhist-center-medan",
+        description:
+            "Visit to Maha Aura Sala Buddhist Center, Medan, Indonesia",
+        title: "Maha Aura Sala Buddhist Center",
+        location: "Medan, Indonesia",
+        locationLink: "https://maps.app.goo.gl/HySJnpqmY9Tbi8zy9",
+        pic: imageRender.mahaAuraSalaBuddhistCenterMedan,
+        time: "27 May 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.252955983538!2d98.6843633760294!3d3.5289429964453385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313b96f14805e9%3A0x51825b8c193be3cb!2sVihara%20Maha%20Aurasala!5e0!3m2!1sen!2sid!4v1779948746218!5m2!1sen!2sid",
+        story: [
+            "On 27 May 2026, my friends and I joined a pindapata event at **Maha Aura Sala Buddhist Center**. Before this, I had already visited the place several times to introduce **Sekber PMVBI (Pemuda Buddhayana)** to their youth organization, **PMV Maha Aura Sala (PMVMAS)**.",
+            "The vihara is located inside a small alley and occupies a two-to-three-story shophouse building. On the first floor, there's a relatively small altar area, while the main baktisala is located on the second floor.",
+        ],
+    },
+    {
+        id: "vihara-dana-lakkhi-sagara-medan",
+        link: "/journal/visited-buddhist-site/vihara-dana-lakkhi-sagara-medan",
+        description: "Visit to Vihara Dana Lakkhi Sagara, Medan, Indonesia",
+        title: "Vihara Dana Lakkhi Sagara",
+        location: "Medan, Indonesia",
+        locationLink: "https://maps.app.goo.gl/eStd5WyBCwh6VLvdA",
+        pic: imageRender.viharaDanaLakkhiSagaraMedan,
+        time: "26 May 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.8622847933398!2d98.6685125760297!3d3.6189419963551415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131f789e6e0b9%3A0xab6d217f6ad84852!2sYAYASAN%20DANA%20LAKKHI%20SAGARA!5e0!3m2!1sen!2sid!4v1779944640369!5m2!1sen!2sid",
+        story: [
+            "On 26 May 2026, my friends and I from **Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara** were invited to celebrate the birthday of **Suhu Xian Hai (Y.M. Bhadrasagara, Sthavira)**.",
+            "The vihara itself is still quite new and is located inside a shophouse building. The second floor is used as a kuti area, while the third floor is dedicated to Ulambana ceremonies. The main baktisala is located on the fourth floor.",
+            "**Dana Lakkhi Sagara** has actually existed for several years, but only recently obtained its own vihara building this year. The head monk, Suhu Xian Hai, is also quite well known and popular among younger Buddhists because of his youthful and distinctive style.",
+        ],
+    },
+    {
         id: "vihara-sakyamuni-buddha-itbc-deli-serdang",
         link: "/journal/visited-buddhist-site/vihara-sakyamuni-buddha-itbc-deli-serdang",
         description:
