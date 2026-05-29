@@ -6,7 +6,7 @@ export const journalMenu: JournalMenu[] = [
         title: "Visited Buddhist Site",
         link: "/journal/visited-buddhist-site",
         description: "Buddhism is always acculturated with local culture",
-        time: "6 May 2026",
+        time: "6th May 2026",
         icon: { src: "fa-regular fa-vihara", type: "fa" },
         type: ["Spiritual"],
         keyword: ["Vihara", "Monastery", "Temple", "Buddhism", "Spiritual"],
@@ -16,7 +16,7 @@ export const journalMenu: JournalMenu[] = [
         link: "/journal/the-way-of-life",
         description:
             "He was too OG that everyone started thinking he was a god",
-        time: "25 October 2025",
+        time: "25th October 2025",
         icon: { src: "fa-regular fa-hand-holding-seeding", type: "fa" },
         type: ["Spiritual"],
         keyword: ["Christian", "Buddhism", "Spiritual"],
@@ -26,7 +26,7 @@ export const journalMenu: JournalMenu[] = [
         link: "/journal/speedcubing",
         description:
             "People missunderstood this as a brain game, but speedcubing is fun",
-        time: "23 October 2025",
+        time: "23rd October 2025",
         icon: { src: imageRender.cubeIcon, type: "svg" },
         type: ["Hobbies"],
         keyword: [
@@ -44,7 +44,7 @@ export const journalMenu: JournalMenu[] = [
         link: "/journal/my-organization-life",
         description:
             "I don't want to have an ordinary life, so I found a memorable life journey",
-        time: "10 October 2025",
+        time: "10th October 2025",
         icon: { src: "fa-regular fa-users", type: "fa" },
         type: ["Organization", "Hobbies"],
         keyword: ["Organization"],

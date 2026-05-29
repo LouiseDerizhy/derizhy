@@ -79,40 +79,36 @@
                 <div
                     class="border-gray overflow-x-auto rounded-sm border bg-white shadow-lg"
                 >
-                    <table class="text-gray min-w-full border-collapse text-sm">
-                        <thead class="bg-gray text-white">
+                    <table class="min-w-full border-collapse text-sm">
+                        <thead
+                            class="bg-gray text-md text-left font-semibold text-white uppercase"
+                        >
                             <tr>
-                                <th
-                                    class="border-gray text-md border-b px-6 py-5 text-left font-semibold uppercase"
-                                >
+                                <th class="border-gray border-b px-6 py-5">
                                     Time
                                 </th>
-                                <th
-                                    class="border-gray text-md border-b px-6 py-5 text-left font-semibold uppercase"
-                                >
+                                <th class="border-gray border-b px-6 py-5">
                                     Event
                                 </th>
-                                <th
-                                    class="border-gray text-md border-b px-6 py-5 text-left font-semibold uppercase"
-                                >
+                                <th class="border-gray border-b px-6 py-5">
                                     Link
                                 </th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-gray text-sm">
                             {#each data.timeline as timeline (timeline.time)}
                                 <tr
                                     class="border-b border-zinc-100 transition-colors duration-200 hover:bg-zinc-50"
                                 >
                                     <td class="px-6 py-5 align-top">
                                         <span
-                                            class="text-gray bg-yellow inline-flex rounded-full px-3 py-1.5 text-xs whitespace-nowrap"
+                                            class="bg-yellow inline-flex rounded-full px-3 py-1.5 text-xs whitespace-nowrap"
                                         >
                                             {timeline.time}
                                         </span>
                                     </td>
                                     <td
-                                        class="text-gray max-w-lg px-6 py-5 align-top leading-7"
+                                        class="max-w-lg px-6 py-5 align-top leading-7"
                                     >
                                         {timeline.event}
                                     </td>
