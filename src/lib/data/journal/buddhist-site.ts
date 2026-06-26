@@ -12,6 +12,35 @@ export const buddhisSiteIntro: JournalData = {
 
 export const siteList: BuddhistSite[] = [
     {
+        id: "vihara-borobudur-medan",
+        link: "/journal/visited-buddhist-site/vihara-borobudur-medan",
+        description: "Visit to Vihara Borobudur, Medan, Indonesia",
+        title: "Vihara Borobudur",
+        location: "Medan, Indonesia",
+        locationLink: "https://maps.app.goo.gl/GyrDBqfkuc3br1Q67",
+        pic: imageRender.viharaBorobudurMedan,
+        time: "21st June 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.0268718789307!2d98.67441377602964!3d3.5813013963928713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cc8594f0c5%3A0xa35e8e42d474e418!2sVihara%20Borobudur!5e0!3m2!1sen!2sid!4v1782352607189!5m2!1sen!2sid",
+        story: [""],
+        timeline: [
+            {
+                time: "19th-21nd June 2026",
+                event: "Dhamma Vidya XII",
+            },
+            {
+                time: "29th December 2024 - 2nd January 2025",
+                event: "Musyawarah Kerja Nasional XVIII Sekber PMVBI (Pemuda Buddhayana)",
+                link: "https://www.youtube.com/watch?v=D7dOJBFIti4",
+            },
+            {
+                time: "16th-18th March 2018",
+                event: "Musyawarah Daerah VII Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara",
+                link: "https://www.youtube.com/watch?v=aiKOuFe5H5E",
+            },
+        ],
+    },
+    {
         id: "maha-aura-sala-buddhist-center-medan",
         link: "/journal/visited-buddhist-site/maha-aura-sala-buddhist-center-medan",
         description:

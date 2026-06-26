@@ -25,6 +25,7 @@ import ehipassikoHouseMedan from "$lib/assets/image/vihara/ehipassiko_house_meda
 import mahaAuraSalaBuddhistCenterMedan from "$lib/assets/image/vihara/maha_aura_sala_buddhist_center_medan.webp";
 import samuderaMahaDharaniMedan from "$lib/assets/image/vihara/samudera_maha_dharani_medan.webp";
 import viharaAvalokitesvaraSibolga from "$lib/assets/image/vihara/vihara_avalokitesvara_sibolga.webp";
+import viharaBorobudurMedan from "$lib/assets/image/vihara/vihara_borobudur_medan.webp";
 import viharaBuddhaBerastagiKaro from "$lib/assets/image/vihara/vihara_buddha_berastagi_karo.webp";
 import viharaBuddhaLokaDeliserdang from "$lib/assets/image/vihara/vihara_buddha_loka_deli_serdang.webp";
 import viharaDanaLakkhiSagaraMedan from "$lib/assets/image/vihara/vihara_dana_lakkhi_sagara_medan.webp";
@@ -75,4 +76,5 @@ export const imageRender = {
     viharaSakyamuniBuddhaITBCDeliSerdang,
     viharaDanaLakkhiSagaraMedan,
     mahaAuraSalaBuddhistCenterMedan,
+    viharaBorobudurMedan,
 };
