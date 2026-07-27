@@ -22,11 +22,19 @@ export const siteList: BuddhistSite[] = [
         time: "21st June 2026",
         embedMap:
             "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.0268718789307!2d98.67441377602964!3d3.5813013963928713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cc8594f0c5%3A0xa35e8e42d474e418!2sVihara%20Borobudur!5e0!3m2!1sen!2sid!4v1782352607189!5m2!1sen!2sid",
-        story: [""],
+        story: [
+            "**Vihara Borobudur** is often regarded as one of the largest and most historic Buddhist temples in Indonesia. It is also home to **Persaudaraan Muda-Mudi Vihara Borobudur (PMVB)**, one of the oldest Buddhist youth organizations in the country. PMVB played an important role in the establishment of **Sekber GMBI**, which later became **Sekber PMVBI (Pemuda Buddhayana)**.",
+            "The vihara itself has grown significantly over the years. What started as a single, modest building has expanded into a much larger complex. Behind the main vihara stands the iconic **Pagoda Avalokitesvara**, while next to it is **Buddhayana Dharmasala**, a ten-story building inspired by the Ten Stages of the Bodhisattva.",
+            "My first visit here was during **Musyawarah Daerah VII** of Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara. Since we arrived at night, I assumed it was just a simple temple. That impression completely changed when the committee took us to our room on the fifth floor—by elevator! I was genuinely surprised. The guest rooms were so comfortable that I often joked with my friends, 'If they added a TV, this room would feel like a three-star hotel.'",
+            "The fifth and sixth floors are used as guest accommodations for visitors staying at the vihara. The ground floor has a baktisala and some rooms, while the first floor contains several DOM rooms and the dining area. The second floor is **Sriwijaya Dharma Hall**, and the third floor features **Sailendra Auditorium**, one of my favorite places in the building. With its tiered seating and spacious layout, it almost feels like watching a movie in a cinema, and it can accommodate hundreds of people. At the very top of the building stands a large stupa, where visitors can enjoy a panoramic view of Medan from ten stories above the ground.",
+            "In 2024, we also held the **Musyawarah Kerja Nasional XVIII** Sekber PMVBI (Pemuda Buddhayana) at Vihara Borobudur. Representatives from 23 provincial secretariats gathered there to discuss the organization's future programs, and I had the opportunity to serve as the committee secretary.",
+            "One of my most memorable experiences here happened in 2026. I volunteered to become the **chairman of Dhamma Vidya XII**, a spiritual training program for Buddhist children. Originally, the event was planned to be held at another venue, but those plans unexpectedly fell through. Fortunately, Vihara Borobudur was willing to host the event instead. Everything came together beautifully, and the program was a great success. Looking back, I'm truly grateful things turned out that way, because it created one of the most meaningful memories of my journey.",
+        ],
         timeline: [
             {
                 time: "19th-21nd June 2026",
                 event: "Dhamma Vidya XII",
+                link: "https://www.youtube.com/watch?v=yR9gvzNeNIM",
             },
             {
                 time: "29th December 2024 - 2nd January 2025",
