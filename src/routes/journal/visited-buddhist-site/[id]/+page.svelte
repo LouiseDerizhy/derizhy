@@ -73,7 +73,7 @@
         </div>
         <div>
             <h3 class="text-xl font-semibold uppercase sm:text-2xl">
-                Visit Timeline
+                Memorable Visit Timeline
             </h3>
             <div class="flex flex-col sm:block">
                 <div

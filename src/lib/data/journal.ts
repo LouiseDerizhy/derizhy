@@ -6,7 +6,7 @@ export const journalMenu: JournalMenu[] = [
         title: "Visited Buddhist Site",
         link: "/journal/visited-buddhist-site",
         description: "Buddhism is always acculturated with local culture",
-        time: "6th May 2026",
+        time: "21st June 2026",
         icon: { src: "fa-regular fa-vihara", type: "fa" },
         type: ["Spiritual"],
         keyword: ["Vihara", "Monastery", "Temple", "Buddhism", "Spiritual"],
