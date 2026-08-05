@@ -4,6 +4,75 @@ import type { Project } from "$lib/type/data-type";
 
 export const project: Project[] = [
     {
+        id: 13,
+        title: "RPC QR Scanner",
+        subtitle: "Buddhayana Run Racepack Collection QR Code Scanner",
+        icon: "fa-regular fa-qrcode",
+        media: [
+            {
+                title: "Frontend Source Code",
+                url: "https://github.com/LouiseDerizhy/buddhayana-run-rpc-scanner",
+                typeSymbol: { src: "fa-brands fa-github", type: "fa" },
+            },
+            {
+                title: "Live Demo",
+                url: "https://rpc.derizhy.com",
+                typeSymbol: { src: "fa-regular fa-browser", type: "fa" },
+            },
+            {
+                title: "Documentation",
+                url: mtPrinter,
+                typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
+            },
+        ],
+        time: "August 2026",
+        type: ["Full-Stack Web"],
+        description: [
+            "In 2025, I served as the **Secretary of Buddhayana Run 2025** in Medan. Together with the organizing team, I was responsible for managing event administration, maintaining runner registration data, and coordinating the race pack collection process.",
+            "",
+            "**Problem**",
+            "At the time, race pack collection was **handled entirely manually**. Participants were required to present their national ID card, after which staff manually verified their registration details. If a participant was unable to attend and wished to authorize someone else to collect the race pack, a signed authorization letter and additional verification were required. This process was time-consuming and often took **5-10 minutes per participant**. With more than **1000 participants**, long queues and operational inefficiencies became a significant challenge.",
+            "",
+            "**Solution**",
+            "Learning from this experience, I developed a digital solution for Buddhayana Run 2026. Every purchased ticket was assigned a unique **QR code**, eliminating the need for manual identity verification during race pack collection. The QR code served as a secure, non-duplicable identifier for each participant, allowing staff to instantly validate registrations with a simple scan.",
+            "",
+            "Additionally, I automated the registration workflow for running communities, sponsorship, and other communities. Registrations submitted through **Google Forms** were integrated with **Google Apps Script**, enabling confirmation emails containing each participant's unique **QR code to be sent automatically** without manual intervention.",
+            "",
+            "As a result, the average race pack collection time was **reduced from 5-10 minutes** to just **10-20 seconds** per participant, significantly improving operational efficiency, reducing queues, and delivering a much smoother experience for both participants and event staff.",
+        ],
+        techs: [
+            "Svelte",
+            "Google Spreadsheet",
+            "Apps Script",
+            "Git",
+            "TypeScript",
+            "Tailwind CSS",
+        ],
+    },
+    {
+        id: 12,
+        title: "Sambal Bakar Cemara POS",
+        subtitle: "Point of Sale Cashier App",
+        icon: "fa-regular fa-cash-register",
+        media: [
+            {
+                title: "Documentation",
+                url: mtPrinter,
+                typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
+            },
+        ],
+        time: "February - July 2026",
+        type: ["Front-End Web"],
+        description: [
+            "**Problem**",
+            "A restaurant required a centralized cashier system to streamline its daily operations. The existing workflow lacked an integrated solution for managing menu data, processing customer orders, and handling payments efficiently, leading to slower service and increased operational complexity.",
+            "",
+            "**Solution**",
+            "A Point of Sale (POS) application that digitizes the restaurant's cashier operations. The system enables staff to manage menu master data, process customer orders, generate bills, and record payments through a single, integrated platform. By consolidating these core functions, the application improves operational efficiency, reduces manual errors, and provides a faster, more organized checkout experience for both staff and customers.",
+        ],
+        techs: ["Angular", "TypeScript", "Tailwind CSS", "Git"],
+    },
+    {
         id: 11,
         title: "MT-PRINTER",
         subtitle: "Background API-Based Printing App",
@@ -20,13 +89,13 @@ export const project: Project[] = [
         description: [
             "Part of **MTHIS 2.0 Project**.",
             "",
-            "Problem",
+            "**Problem**",
             "Users need a way to **automatically print** barcodes, assessments, reports, and other documents **without having to manually configure** each printer in every processes.",
             "",
-            "Solution",
+            "**Solution**",
             "**MT-Printer**, a **desktop application** that serves as a bridge between a hospital's application and a **local printer**. When a user clicks the 'Print' button in the web app, a request is sent to MT-Printer, which **automatically prints** the received file using **pre-configured** printer settings",
         ],
-        techs: ["React", "Electron", "Tailwind CSS", "Git"],
+        techs: ["React", "Electron", "TypeScript", "Tailwind CSS", "Git"],
     },
     {
         id: 10,
@@ -39,10 +108,10 @@ export const project: Project[] = [
         description: [
             "Part of **MTHIS 2.0 Project**.",
             "",
-            "Problem",
+            "**Problem**",
             "The demand for **electronic medical reports** among doctors and nurses is rapidly increasing. To address this, a tool is required that enables **quick and flexible report creation** without the need for complex programming.",
             "",
-            "Solution",
+            "**Solution**",
             "To address the hospital's need for a **flexible and customizable assessment** system with integrated database storage, this project introduced the Assessment Builder, a web-based solution that allows users to **easily design** and **manage** their own assessment templates. Built with **GrapesJS**, it empowers users to create dynamic, interactive forms and even extend functionality using custom JavaScript code, offering an exceptional level of flexibility, control, and efficiency in the hospital's digital workflow.",
         ],
         techs: [
@@ -76,10 +145,10 @@ export const project: Project[] = [
         description: [
             "This is **final project** for Computer Science's Bachelor Degree.",
             "",
-            "Problem",
+            "**Problem**",
             "The Indonesian government has set a **national agenda** to **reduce the prevalence of stunting** across the country. In the field of informatics, there is a growing need for a web-based application to support this initiative. However, the two existing government websites currently lack the necessary features and functionality to effectively address the problem.",
             "",
-            "Solution",
+            "**Solution**",
             "A web-based stunting application was developed, focusing on **audiovisual education**, **public awareness**, **community discussions**, and an **integrated stunting calculator**. The platform aims to make stunting prevention more accessible, interactive, and engaging for both the public and healthcare professionals.",
             "",
             "Account for testing purpose: ",
@@ -101,10 +170,10 @@ export const project: Project[] = [
         description: [
             "**MTHIS** (Murni Teguh Hospital Information System) is a hospital information system that manages and integrates medical, administrative, and financial functions within a healthcare facility to streamline operations and improve patient care.",
             "",
-            "Problem",
+            "**Problem**",
             "The hospital's existing operational application was built on **outdated**, monolithic technology. Although a migration to microservices has been initiated, the system still **lacks the efficiency** and optimization needed for modern hospital workflows. To support critical operations such as **data management**, **medical services**, **pharmacy**, **finance**, **laboratory**, **inventory**, and **patient administration**, a new system is required, one that operates **efficiently, reliably, and seamlessly** to simplify and accelerate hospital operations.",
             "",
-            "Solution",
+            "**Solution**",
             "Web-based hospital information system built with **Svelte** + **TypeScript** and **Spring Boot**, designed around the **FHIR standard**. Svelte offers high performance and reactivity for a smooth user experience, while Spring Boot delivers robust, secure, and scalable backend services.",
         ],
         techs: [

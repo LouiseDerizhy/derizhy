@@ -127,6 +127,10 @@
         content: "\f07a";
     }
 
+    .fa-cash-register::before {
+        content: "\f788";
+    }
+
     .fa-cat::before {
         content: "\1f408";
     }
@@ -285,6 +289,10 @@
 
     .fa-python::before {
         content: "\f3e2";
+    }
+
+    .fa-qrcode::before {
+        content: "\f029";
     }
 
     .fa-react::before {
