@@ -1,5 +1,7 @@
-import helpMeProposal from "$lib/assets/pdf/helpMeProposal.pdf";
-import mtPrinter from "$lib/assets/pdf/mtprinter.pdf";
+import assessmentBuilder from "$lib/assets/pdf/assessment-builder.pdf";
+import helpMeProposal from "$lib/assets/pdf/help-me-proposal.pdf";
+import mtPrinter from "$lib/assets/pdf/mt-printer.pdf";
+import pos from "$lib/assets/pdf/pos.pdf";
 import type { Project } from "$lib/type/data-type";
 
 export const project: Project[] = [
@@ -57,7 +59,7 @@ export const project: Project[] = [
         media: [
             {
                 title: "Documentation",
-                url: mtPrinter,
+                url: pos,
                 typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
             },
         ],
@@ -102,7 +104,13 @@ export const project: Project[] = [
         title: "Assessment Builder",
         subtitle: "Electronic Medical Record Builder",
         icon: "fa-regular fa-file",
-        media: [],
+        media: [
+            {
+                title: "Documentation",
+                url: assessmentBuilder,
+                typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
+            },
+        ],
         time: "August 2024 - Now",
         type: ["Full-Stack Web"],
         description: [
