@@ -18,12 +18,12 @@ export const portfolioContactData: Contact[] = [
         label: "Instagram",
     },
     {
-        icon: "fab fa-facebook-f",
+        icon: "fab fa-facebook",
         link: "https://www.facebook.com/derizhylouise",
         label: "Facebook",
     },
     {
-        icon: "fab fa-linkedin-in",
+        icon: "fab fa-linkedin",
         link: "https://www.linkedin.com/in/louisederizhy/",
         label: "LinkedIn",
     },
@@ -51,12 +51,12 @@ export const homeContactData: Contact[] = [
         label: "Instagram",
     },
     {
-        icon: "fab fa-facebook-f",
+        icon: "fab fa-facebook",
         link: "https://www.facebook.com/derizhylouise",
         label: "Facebook",
     },
     {
-        icon: "fab fa-linkedin-in",
+        icon: "fab fa-linkedin",
         link: "https://www.linkedin.com/in/louisederizhy/",
         label: "LinkedIn",
     },

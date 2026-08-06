@@ -4,7 +4,7 @@ import type { Skill } from "$lib/type/data-type";
 export const languageSkill: Skill[] = [
     {
         skill: "TypeScript",
-        icon: { src: imageRender.typescriptIcon, type: "svg" },
+        icon: { src: "fa-brands fa-typescript", type: "fa" },
         link: "https://www.typescriptlang.org/",
     },
     {
@@ -37,12 +37,12 @@ export const languageSkill: Skill[] = [
 export const frameworkSkill: Skill[] = [
     {
         skill: "Svelte",
-        icon: { src: imageRender.svelteIcon, type: "svg" },
+        icon: { src: "fa-brands fa-svelte", type: "fa" },
         link: "https://svelte.dev/",
     },
     {
         skill: "Tailwind CSS",
-        icon: { src: imageRender.tailwindIcon, type: "svg" },
+        icon: { src: "fa-brands fa-tailwind-css", type: "fa" },
         link: "https://tailwindcss.com/",
     },
     {
@@ -65,7 +65,7 @@ export const frameworkSkill: Skill[] = [
 export const databaseSkill: Skill[] = [
     {
         skill: "PostgreSQL",
-        icon: { src: imageRender.postgresqlIcon, type: "svg" },
+        icon: { src: "fa-brands fa-postgresql", type: "fa" },
         link: "https://www.postgresql.org/",
     },
     {

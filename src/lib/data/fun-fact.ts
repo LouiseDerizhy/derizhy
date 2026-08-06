@@ -62,13 +62,13 @@ export const funFact: FunFact[] = [
     },
     {
         link: "https://tailwindcss.com/",
-        icon: { src: imageRender.tailwindIcon, type: "svg" },
+        icon: { src: "fa-brands fa-tailwind-css", type: "fa" },
         content:
             "**Tailwind CSS** is so good until I forgot how to code with CSS",
     },
     {
         link: "https://svelte.dev/",
-        icon: { src: imageRender.svelteIcon, type: "svg" },
+        icon: { src: "fa-brands fa-svelte", type: "fa" },
         content: "**Svelte** is my most favorite framework",
     },
     {

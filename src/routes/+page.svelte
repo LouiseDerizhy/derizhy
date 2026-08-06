@@ -10,7 +10,7 @@
 
 <SectionHome />
 
-<div class="bg-[url('$lib/assets/svg/bg-1.svg')] bg-repeat pb-40">
+<div class="bg-[url('$lib/assets/svg/background.svg')] bg-repeat pb-40">
     <SectionJournal />
 
     <SectionFunFact />

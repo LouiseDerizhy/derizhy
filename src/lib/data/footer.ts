@@ -62,13 +62,13 @@ export const footerData: FooterData = {
         },
         {
             label: "Facebook",
-            icon: "fab fa-facebook-f",
+            icon: "fab fa-facebook",
             href: "https://www.facebook.com/derizhylouise",
             target: "_blank",
         },
         {
             label: "LinkedIn",
-            icon: "fab fa-linkedin-in",
+            icon: "fab fa-linkedin",
             href: "https://www.linkedin.com/in/louisederizhy",
             target: "_blank",
         },

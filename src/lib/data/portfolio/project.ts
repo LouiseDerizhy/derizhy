@@ -12,7 +12,7 @@ export const project: Project[] = [
         icon: "fa-regular fa-qrcode",
         media: [
             {
-                title: "Frontend Source Code",
+                title: "FrontEnd Source Code",
                 url: "https://github.com/LouiseDerizhy/buddhayana-run-rpc-scanner",
                 typeSymbol: { src: "fa-brands fa-github", type: "fa" },
             },

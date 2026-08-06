@@ -183,8 +183,8 @@
         content: "\f06e";
     }
 
-    .fa-facebook-f::before {
-        content: "\f39e";
+    .fa-facebook::before {
+        content: "\f09a";
     }
 
     .fa-figma::before {
@@ -197,10 +197,6 @@
 
     .fa-file-pdf::before {
         content: "\f1c1";
-    }
-
-    .fa-gamepad-modern::before {
-        content: "\1f3ae";
     }
 
     .fa-git-alt::before {
@@ -239,8 +235,8 @@
         content: "\f0c1";
     }
 
-    .fa-linkedin-in::before {
-        content: "\f0e1";
+    .fa-linkedin::before {
+        content: "\f08c";
     }
 
     .fa-location-dot::before {
@@ -267,10 +263,6 @@
         content: "\f3d3";
     }
 
-    .fa-npm::before {
-        content: "\f3d4";
-    }
-
     .fa-paint-roller::before {
         content: "\f5aa";
     }
@@ -281,6 +273,10 @@
 
     .fa-pen-ruler::before {
         content: "\f5ae";
+    }
+
+    .fa-postgresql::before {
+        content: "\e858";
     }
 
     .fa-print::before {
@@ -305,6 +301,18 @@
 
     .fa-stethoscope::before {
         content: "\f0f1";
+    }
+
+    .fa-svelte::before {
+        content: "\e868";
+    }
+
+    .fa-tailwind-css::before {
+        content: "\e866";
+    }
+
+    .fa-typescript::before {
+        content: "\e840";
     }
 
     .fa-user::before {
@@ -350,6 +358,14 @@
         font-display: block;
         src: url($lib/assets/font/fa-light-300.woff2) format("woff2");
     }
+
+    /* @font-face {
+        font-family: "Font Awesome Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: block;
+        src: url($lib/assets/font/fa-regular-400.woff2) format("woff2");
+    } */
 
     @font-face {
         font-family: "Font Awesome Pro";
