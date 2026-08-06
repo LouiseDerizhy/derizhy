@@ -21,11 +21,11 @@ export const project: Project[] = [
                 url: "https://rpc.derizhy.com",
                 typeSymbol: { src: "fa-regular fa-browser", type: "fa" },
             },
-            {
-                title: "Documentation",
-                url: mtPrinter,
-                typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
-            },
+            // {
+            //     title: "Documentation",
+            //     url: mtPrinter,
+            //     typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
+            // },
         ],
         time: "August 2026",
         type: ["Full-Stack Web"],
