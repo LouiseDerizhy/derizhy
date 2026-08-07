@@ -107,6 +107,10 @@
 
     /* ICONS */
 
+    .fa-angular::before {
+        content: "\f420";
+    }
+
     .fa-bars::before {
         content: "\f0c9";
     }

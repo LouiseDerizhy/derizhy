@@ -10,6 +10,7 @@ export const project: Project[] = [
         title: "RPC QR Scanner",
         subtitle: "Buddhayana Run Racepack Collection QR Code Scanner",
         icon: "fa-regular fa-qrcode",
+        highlightTech: "fa-brands fa-svelte",
         media: [
             {
                 title: "FrontEnd Source Code",
@@ -56,6 +57,7 @@ export const project: Project[] = [
         title: "Sambal Bakar Cemara POS",
         subtitle: "Point of Sale Cashier App",
         icon: "fa-regular fa-cash-register",
+        highlightTech: "fa-brands fa-angular",
         media: [
             {
                 title: "Documentation",
@@ -79,6 +81,7 @@ export const project: Project[] = [
         title: "MT-PRINTER",
         subtitle: "Background API-Based Printing App",
         icon: "fa-regular fa-print",
+        highlightTech: "fa-brands fa-react",
         media: [
             {
                 title: "Documentation",
@@ -104,6 +107,7 @@ export const project: Project[] = [
         title: "Assessment Builder",
         subtitle: "Electronic Medical Record Builder",
         icon: "fa-regular fa-file",
+        highlightTech: "fa-brands fa-svelte",
         media: [
             {
                 title: "Documentation",
@@ -136,6 +140,7 @@ export const project: Project[] = [
         title: "Peduli Anak",
         subtitle: "Stunting Web-Based App",
         icon: "fa-regular fa-stethoscope",
+        highlightTech: "fa-brands fa-html5",
         type: ["Front-End Web"],
         media: [
             {
@@ -172,6 +177,7 @@ export const project: Project[] = [
         title: "MTHIS 2.0",
         subtitle: "Murni Teguh Hospital Information System",
         icon: "fa-regular fa-stethoscope",
+        highlightTech: "fa-brands fa-svelte",
         type: ["Full-Stack Web"],
         media: [],
         time: "January 2024 - Now",
@@ -203,6 +209,7 @@ export const project: Project[] = [
         title: "derizhy.com",
         subtitle: "Personal Website",
         icon: "fa-regular fa-layer-group",
+        highlightTech: "fa-brands fa-svelte",
         type: ["Front-End Web"],
         media: [
             {
@@ -227,6 +234,7 @@ export const project: Project[] = [
         title: "Shopping Cart Database",
         subtitle: "Data Analytics Project",
         icon: "fa-regular fa-cart-shopping",
+        highlightTech: "fa-brands fa-python",
         type: ["Data Analytics"],
         media: [
             {
@@ -273,6 +281,7 @@ export const project: Project[] = [
         title: "Clo",
         subtitle: "E-Commerce Web",
         icon: "fa-regular fa-cart-shopping",
+        highlightTech: "fa-brands fa-node-js",
         type: ["Full-Stack Web"],
         media: [
             {
@@ -321,6 +330,7 @@ export const project: Project[] = [
         title: "Bike Rental",
         subtitle: "Data Analytics Project",
         icon: "fa-regular fa-bicycle",
+        highlightTech: "fa-brands fa-python",
         type: ["Data Analytics"],
         media: [
             {
@@ -342,6 +352,7 @@ export const project: Project[] = [
         title: "Cryptography",
         subtitle: "Cryptography Algorithm Source Code",
         icon: "fa-regular fa-code",
+        highlightTech: "fa-brands fa-python",
         type: ["Cryptography"],
         media: [
             {
@@ -370,6 +381,7 @@ export const project: Project[] = [
         title: "Image Processing",
         subtitle: "Image Processing Algorithm Source Code",
         icon: "fa-regular fa-image",
+        highlightTech: "fa-brands fa-python",
         type: ["Artificial Intelligence"],
         media: [
             {
@@ -399,6 +411,7 @@ export const project: Project[] = [
         title: "Help Me",
         subtitle: "UI Design of Mobile App",
         icon: "fa-regular fa-palette",
+        highlightTech: "fa-brands fa-figma",
         type: ["UI & UX"],
         media: [
             {

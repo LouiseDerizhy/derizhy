@@ -1,5 +1,6 @@
 <script lang="ts">
     import SearchBar from "$lib/custom-components/search-bar.svelte";
+    import SkillBadgeMini from "$lib/custom-components/skill-badge-mini.svelte";
     import SkillBadge from "$lib/custom-components/skill-badge.svelte";
     import { project } from "$lib/data/portfolio/project";
     import type { Project } from "$lib/type/data-type";
@@ -134,10 +135,14 @@
                         <div
                             class="mt-4 flex flex-wrap justify-between gap-2 text-xs sm:text-sm"
                         >
-                            <div
-                                class="text-gray rounded-full bg-white px-4 py-2 hover:bg-white/80"
-                            >
-                                {item.type}
+                            <div class="flex gap-2">
+                                <SkillBadgeMini className={item.highlightTech}
+                                ></SkillBadgeMini>
+                                <div
+                                    class="text-gray rounded-full bg-white px-4 py-2 hover:bg-white/80"
+                                >
+                                    {item.type}
+                                </div>
                             </div>
                             <div
                                 class="bg-lightgray rounded-full px-4 py-2 hover:brightness-150"
