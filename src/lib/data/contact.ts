@@ -33,7 +33,7 @@ export const portfolioContactData: Contact[] = [
         label: "Github",
     },
     {
-        icon: "before:content-['CV'] font-semibold",
+        icon: "fa-regular fa-file-pdf",
         link: cv,
         label: "Curriculum Vitae",
     },
