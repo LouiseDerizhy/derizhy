@@ -14,7 +14,7 @@ export const project: Project[] = [
         media: [
             {
                 title: "FrontEnd Source Code",
-                url: "https://github.com/LouiseDerizhy/buddhayana-run-rpc-scanner",
+                url: "https://github.com/LouiseDerizhy/buddhayana-run-rpc-qr-scanner",
                 typeSymbol: { src: "fa-brands fa-github", type: "fa" },
             },
             {
