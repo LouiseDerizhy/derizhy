@@ -189,10 +189,8 @@
                                             </a>
                                         {/each}
                                     {:else}
-                                        No media available in this project.
-                                        <br />
-                                        I will upload the media soon after the project
-                                        has done.
+                                        Documentation not available due to
+                                        organization confidentiality.
                                     {/if}
                                 </div>
                                 <div class="mt-6 font-semibold">

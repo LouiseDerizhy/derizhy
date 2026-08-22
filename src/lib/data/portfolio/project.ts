@@ -1,6 +1,3 @@
-import assessmentBuilder from "$lib/assets/pdf/assessment-builder.pdf";
-import mtPrinter from "$lib/assets/pdf/mt-printer.pdf";
-import pos from "$lib/assets/pdf/pos.pdf";
 import rpcBudrun from "$lib/assets/pdf/rpc-budrun.pdf";
 import type { Project } from "$lib/type/data-type";
 
@@ -58,11 +55,11 @@ export const project: Project[] = [
         icon: "fa-regular fa-cash-register",
         highlightTech: { title: "Angular", logo: "fa-brands fa-angular" },
         media: [
-            {
-                title: "Documentation",
-                url: pos,
-                typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
-            },
+            // {
+            //     title: "Documentation",
+            //     url: pos,
+            //     typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
+            // },
         ],
         time: "February - July 2026",
         type: ["Front-End Web"],
@@ -110,11 +107,11 @@ export const project: Project[] = [
         icon: "fa-regular fa-print",
         highlightTech: { title: "React", logo: "fa-brands fa-react" },
         media: [
-            {
-                title: "Documentation",
-                url: mtPrinter,
-                typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
-            },
+            // {
+            //     title: "Documentation",
+            //     url: mtPrinter,
+            //     typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
+            // },
         ],
         time: "April - July 2025",
         type: ["Desktop App"],
@@ -136,11 +133,11 @@ export const project: Project[] = [
         icon: "fa-regular fa-file",
         highlightTech: { title: "Svelte", logo: "fa-brands fa-svelte" },
         media: [
-            {
-                title: "Documentation",
-                url: assessmentBuilder,
-                typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
-            },
+            // {
+            //     title: "Documentation",
+            //     url: assessmentBuilder,
+            //     typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
+            // },
         ],
         time: "August 2024 - Now",
         type: ["Full-Stack Web"],
