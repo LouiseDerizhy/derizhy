@@ -6,7 +6,7 @@ import type { Project } from "$lib/type/data-type";
 
 export const project: Project[] = [
     {
-        id: 13,
+        id: 14,
         title: "RPC QR Scanner",
         subtitle: "Buddhayana Run Racepack Collection QR Code Scanner",
         icon: "fa-regular fa-qrcode",
@@ -52,7 +52,7 @@ export const project: Project[] = [
         ],
     },
     {
-        id: 12,
+        id: 13,
         title: "Sambal Bakar Cemara POS",
         subtitle: "Point of Sale Cashier App",
         icon: "fa-regular fa-cash-register",
@@ -74,6 +74,24 @@ export const project: Project[] = [
             "A Point of Sale (POS) application that digitizes the restaurant's cashier operations. The system enables staff to manage menu master data, process customer orders, generate bills, and record payments through a single, integrated platform. By consolidating these core functions, the application improves operational efficiency, reduces manual errors, and provides a faster, more organized checkout experience for both staff and customers.",
         ],
         techs: ["Angular", "TypeScript", "Tailwind CSS", "Git"],
+    },
+    {
+        id: 12,
+        title: "Browser Automation",
+        subtitle: "Background Headless Browser for Task Automation",
+        icon: "fa-regular fa-browser",
+        highlightTech: "fa-brands fa-typescript",
+        media: [],
+        time: "February 2026",
+        type: ["Back-End"],
+        description: [
+            "**Problem**",
+            "A restaurant required a centralized cashier system to streamline its daily operations. The existing workflow lacked an integrated solution for managing menu data, processing customer orders, and handling payments efficiently, leading to slower service and increased operational complexity.",
+            "",
+            "**Solution**",
+            "A Point of Sale (POS) application that digitizes the restaurant's cashier operations. The system enables staff to manage menu master data, process customer orders, generate bills, and record payments through a single, integrated platform. By consolidating these core functions, the application improves operational efficiency, reduces manual errors, and provides a faster, more organized checkout experience for both staff and customers.",
+        ],
+        techs: ["Bun", "Puppeteer", "TypeScript", "Git"],
     },
     {
         id: 11,
