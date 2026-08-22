@@ -50,7 +50,7 @@
 >
     <!-- LOGO -->
     <div class="w-full">
-        <a href="/" class="flex items-center gap-4">
+        <a href="/portfolio" class="flex items-center gap-4">
             <img class="h-24" src={logo} alt="logo" />
             <h1 class="text-4xl font-semibold">Louise Derizhy</h1>
         </a>
