@@ -10,7 +10,7 @@ export const project: Project[] = [
         title: "RPC QR Scanner",
         subtitle: "Buddhayana Run Racepack Collection QR Code Scanner",
         icon: "fa-regular fa-qrcode",
-        highlightTech: "fa-brands fa-svelte",
+        highlightTech: { title: "Svelte", logo: "fa-brands fa-svelte" },
         media: [
             {
                 title: "Source Code",
@@ -56,7 +56,7 @@ export const project: Project[] = [
         title: "Sambal Bakar Cemara POS",
         subtitle: "Point of Sale Cashier App",
         icon: "fa-regular fa-cash-register",
-        highlightTech: "fa-brands fa-angular",
+        highlightTech: { title: "Angular", logo: "fa-brands fa-angular" },
         media: [
             {
                 title: "Documentation",
@@ -80,16 +80,26 @@ export const project: Project[] = [
         title: "Browser Automation",
         subtitle: "Background Headless Browser for Task Automation",
         icon: "fa-regular fa-browser",
-        highlightTech: "fa-brands fa-typescript",
+        highlightTech: { title: "TypeScript", logo: "fa-brands fa-typescript" },
         media: [],
         time: "February 2026",
         type: ["Back-End"],
         description: [
+            "Part of **MTHIS 2.0 Project**.",
+            "",
             "**Problem**",
-            "A restaurant required a centralized cashier system to streamline its daily operations. The existing workflow lacked an integrated solution for managing menu data, processing customer orders, and handling payments efficiently, leading to slower service and increased operational complexity.",
+            "Several operational tasks required users to **manually** open and interact with a **web browser** to complete repetitive workflows. These tasks included capturing screenshots, converting medical records into PDF documents, uploading generated files to the server, and performing other **browser-based operations**.",
+            "",
+            "Although these processes were relatively straightforward, they required users to repeatedly perform the same steps manually. This increased the time required to complete each task and introduced the possibility of human error or inconsistent execution.",
+            "",
+            "In addition, some workflows needed to **run in the background** without requiring the user to actively interact with the browser.",
             "",
             "**Solution**",
-            "A Point of Sale (POS) application that digitizes the restaurant's cashier operations. The system enables staff to manage menu master data, process customer orders, generate bills, and record payments through a single, integrated platform. By consolidating these core functions, the application improves operational efficiency, reduces manual errors, and provides a faster, more organized checkout experience for both staff and customers.",
+            "A client-side browser automation solution using **Puppeteer** to execute predefined browser-based tasks automatically.",
+            "",
+            "The automation runs browser jobs in the background and performs the required workflow programmatically, including navigating to specific pages, interacting with web elements, capturing screenshots, generating PDF documents from medical records, and uploading the resulting files to the server.",
+            "",
+            "This allowed repetitive browser-based operations to be executed without requiring users to manually open, navigate, and operate the browser for each task."
         ],
         techs: ["Bun", "Puppeteer", "TypeScript", "Git"],
     },
@@ -98,7 +108,7 @@ export const project: Project[] = [
         title: "MT-PRINTER",
         subtitle: "Background API-Based Printing App",
         icon: "fa-regular fa-print",
-        highlightTech: "fa-brands fa-react",
+        highlightTech: { title: "React", logo: "fa-brands fa-react" },
         media: [
             {
                 title: "Documentation",
@@ -124,7 +134,7 @@ export const project: Project[] = [
         title: "Assessment Builder",
         subtitle: "Electronic Medical Record Builder",
         icon: "fa-regular fa-file",
-        highlightTech: "fa-brands fa-svelte",
+        highlightTech: { title: "Svelte", logo: "fa-brands fa-svelte" },
         media: [
             {
                 title: "Documentation",
@@ -157,7 +167,7 @@ export const project: Project[] = [
         title: "Peduli Anak",
         subtitle: "Stunting Web-Based App",
         icon: "fa-regular fa-stethoscope",
-        highlightTech: "fa-brands fa-html5",
+        highlightTech: { title: "HTML", logo: "fa-brands fa-html5" },
         type: ["Front-End Web"],
         media: [
             {
@@ -194,7 +204,7 @@ export const project: Project[] = [
         title: "MTHIS 2.0",
         subtitle: "Murni Teguh Hospital Information System",
         icon: "fa-regular fa-stethoscope",
-        highlightTech: "fa-brands fa-svelte",
+        highlightTech: { title: "Svelte", logo: "fa-brands fa-svelte" },
         type: ["Full-Stack Web"],
         media: [],
         time: "January 2024 - Now",
@@ -225,7 +235,7 @@ export const project: Project[] = [
         title: "HIS Services",
         subtitle: "Hospital Information System Service",
         icon: "fa-regular fa-server",
-        highlightTech: "fa-brands fa-java",
+        highlightTech: { title: "Java", logo: "fa-brands fa-java" },
         type: ["Back-End"],
         media: [],
         time: "October 2022 - Now",
@@ -255,7 +265,7 @@ export const project: Project[] = [
         title: "derizhy.com",
         subtitle: "Personal Website",
         icon: "fa-regular fa-layer-group",
-        highlightTech: "fa-brands fa-svelte",
+        highlightTech: { title: "Svelte", logo: "fa-brands fa-svelte" },
         type: ["Front-End Web"],
         media: [
             {
@@ -280,7 +290,7 @@ export const project: Project[] = [
         title: "Shopping Cart Database",
         subtitle: "Data Analytics Project",
         icon: "fa-regular fa-cart-shopping",
-        highlightTech: "fa-brands fa-python",
+        highlightTech: { title: "Python", logo: "fa-brands fa-python" },
         type: ["Data Analytics"],
         media: [
             {
@@ -327,7 +337,7 @@ export const project: Project[] = [
         title: "Clo",
         subtitle: "E-Commerce Web",
         icon: "fa-regular fa-cart-shopping",
-        highlightTech: "fa-brands fa-node-js",
+        highlightTech: { title: "Node.js", logo: "fa-brands fa-node-js" },
         type: ["Full-Stack Web"],
         media: [
             {
@@ -376,7 +386,7 @@ export const project: Project[] = [
         title: "Bike Rental",
         subtitle: "Data Analytics Project",
         icon: "fa-regular fa-bicycle",
-        highlightTech: "fa-brands fa-python",
+        highlightTech: { title: "Python", logo: "fa-brands fa-python" },
         type: ["Data Analytics"],
         media: [
             {
@@ -398,7 +408,7 @@ export const project: Project[] = [
         title: "Cryptography",
         subtitle: "Cryptography Algorithm Source Code",
         icon: "fa-regular fa-code",
-        highlightTech: "fa-brands fa-python",
+        highlightTech: { title: "Python", logo: "fa-brands fa-python" },
         type: ["Advanced Technology"],
         media: [
             {
@@ -427,7 +437,7 @@ export const project: Project[] = [
         title: "Image Processing",
         subtitle: "Image Processing Algorithm Source Code",
         icon: "fa-regular fa-image",
-        highlightTech: "fa-brands fa-python",
+        highlightTech: { title: "Python", logo: "fa-brands fa-python" },
         type: ["Advanced Technology"],
         media: [
             {

@@ -136,7 +136,9 @@
                             class="mt-4 flex flex-wrap justify-between gap-2 text-xs sm:text-sm"
                         >
                             <div class="flex gap-2">
-                                <SkillBadgeMini className={item.highlightTech}
+                                <SkillBadgeMini
+                                    className={item.highlightTech.logo}
+                                    title={item.highlightTech.title}
                                 ></SkillBadgeMini>
                                 <div
                                     class="text-gray rounded-full bg-white px-4 py-2 hover:bg-white/80"

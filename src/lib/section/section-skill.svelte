@@ -3,7 +3,6 @@
         databaseSkill,
         frameworkSkill,
         languageSkill,
-        toolSkill,
     } from "$lib/data/portfolio/skill";
     import type { IconImage } from "$lib/type/data-type";
 </script>
@@ -21,133 +20,68 @@
             Skills
         </h2>
         <div class="flex flex-col gap-4">
-            <div class="h-full">
-                <h3
-                    class="text-gray text-center text-3xl font-semibold uppercase sm:text-4xl"
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
-                >
-                    <span class="fa-regular fa-code"></span>
-                    Languages
-                    <span class="fa-regular fa-code"></span>
-                </h3>
-                <div
-                    class="flex flex-wrap items-center justify-center gap-4 overflow-hidden pt-6 pb-12 group-open:max-h-screen sm:gap-8"
-                >
-                    {#each languageSkill as item (item.skill)}
-                        <div data-aos="fade-up" data-aos-duration="2000">
-                            <a
-                                href={item.link}
-                                target="_blank"
-                                title={item.skill}
-                                class="group bg-gray shadow-gray flex h-40 w-40 flex-col items-center justify-center gap-2 rounded-sm p-4 shadow-lg transition hover:scale-110 hover:duration-300 sm:hover:scale-125"
-                            >
-                                <div class="text-center text-5xl">
-                                    {@render renderIcon(item.skill, item.icon)}
-                                </div>
-                                <h4 class="text-center font-semibold">
-                                    {item.skill}
-                                </h4>
-                            </a>
-                        </div>
-                    {/each}
-                </div>
+            <div
+                class="flex h-full flex-wrap items-center justify-center gap-4 pb-12 sm:gap-8"
+            >
+                {#each languageSkill as item (item.skill)}
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <a
+                            href={item.link}
+                            target="_blank"
+                            title={item.skill}
+                            class="group bg-gray shadow-gray flex h-40 w-40 flex-col items-center justify-center gap-2 rounded-sm p-4 shadow-lg transition hover:scale-110 hover:duration-300 sm:hover:scale-125"
+                        >
+                            <div class="text-center text-5xl">
+                                {@render renderIcon(item.skill, item.icon)}
+                            </div>
+                            <h4 class="text-center font-semibold">
+                                {item.skill}
+                            </h4>
+                        </a>
+                    </div>
+                {/each}
             </div>
-            <div class="h-full">
-                <h3
-                    class="text-gray text-center text-3xl font-semibold uppercase sm:text-4xl"
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
-                >
-                    <span class="fa-regular fa-layer-group"></span>
-                    Frameworks
-                    <span class="fa-regular fa-layer-group"></span>
-                </h3>
-                <div
-                    class="flex flex-wrap items-center justify-center gap-4 overflow-hidden pt-6 pb-12 group-open:max-h-screen sm:gap-8"
-                >
-                    {#each frameworkSkill as item (item.skill)}
-                        <div data-aos="fade-up" data-aos-duration="2000">
-                            <a
-                                href={item.link}
-                                target="_blank"
-                                title={item.skill}
-                                class="group bg-gray shadow-gray flex h-40 w-40 flex-col items-center justify-center gap-2 rounded-sm p-4 shadow-lg transition hover:scale-110 hover:duration-300 sm:hover:scale-125"
-                            >
-                                <div class="text-center text-5xl">
-                                    {@render renderIcon(item.skill, item.icon)}
-                                </div>
-                                <h4 class="text-center font-semibold">
-                                    {item.skill}
-                                </h4>
-                            </a>
-                        </div>
-                    {/each}
-                </div>
+            <div
+                class="flex h-full flex-wrap items-center justify-center gap-4 pb-12 sm:gap-8"
+            >
+                {#each frameworkSkill as item (item.skill)}
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <a
+                            href={item.link}
+                            target="_blank"
+                            title={item.skill}
+                            class="group bg-gray shadow-gray flex h-40 w-40 flex-col items-center justify-center gap-2 rounded-sm p-4 shadow-lg transition hover:scale-110 hover:duration-300 sm:hover:scale-125"
+                        >
+                            <div class="text-center text-5xl">
+                                {@render renderIcon(item.skill, item.icon)}
+                            </div>
+                            <h4 class="text-center font-semibold">
+                                {item.skill}
+                            </h4>
+                        </a>
+                    </div>
+                {/each}
             </div>
-            <div class="h-full">
-                <h3
-                    class="text-gray text-center text-3xl font-semibold uppercase sm:text-4xl"
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
-                >
-                    <span class="fa-regular fa-database"></span>
-                    Databases
-                    <span class="fa-regular fa-database"></span>
-                </h3>
-                <div
-                    class="flex flex-wrap items-center justify-center gap-4 overflow-hidden pt-6 pb-12 group-open:max-h-screen sm:gap-8"
-                >
-                    {#each databaseSkill as item (item.skill)}
-                        <div data-aos="fade-up" data-aos-duration="2000">
-                            <a
-                                href={item.link}
-                                target="_blank"
-                                title={item.skill}
-                                class="group bg-gray shadow-gray flex h-40 w-40 flex-col items-center justify-center gap-2 rounded-sm p-4 shadow-lg transition hover:scale-110 hover:duration-300 sm:hover:scale-125"
-                            >
-                                <div class="text-center text-5xl">
-                                    {@render renderIcon(item.skill, item.icon)}
-                                </div>
-                                <h4 class="text-center font-semibold">
-                                    {item.skill}
-                                </h4>
-                            </a>
-                        </div>
-                    {/each}
-                </div>
-            </div>
-            <div class="h-full">
-                <h3
-                    class="text-gray text-center text-3xl font-semibold uppercase sm:text-4xl"
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
-                >
-                    <span class="fa-regular fa-pen-ruler"></span>
-                    Tools
-                    <span class="fa-regular fa-pen-ruler"></span>
-                </h3>
-                <div
-                    class="flex flex-wrap items-center justify-center gap-4 overflow-hidden pt-6 pb-12 group-open:max-h-screen sm:gap-8"
-                >
-                    {#each toolSkill as item (item.skill)}
-                        <div data-aos="fade-up" data-aos-duration="2000">
-                            <a
-                                href={item.link}
-                                target="_blank"
-                                title={item.skill}
-                                class="group bg-gray shadow-gray flex h-40 w-40 flex-col items-center justify-center gap-2 rounded-sm p-4 shadow-lg transition hover:scale-110 hover:duration-300 sm:hover:scale-125"
-                            >
-                                <div class="text-center text-5xl">
-                                    {@render renderIcon(item.skill, item.icon)}
-                                </div>
-                                <h4 class="text-center font-semibold">
-                                    {item.skill}
-                                </h4>
-                            </a>
-                        </div>
-                    {/each}
-                </div>
+            <div
+                class="flex h-full flex-wrap items-center justify-center gap-4 pb-12 sm:gap-8"
+            >
+                {#each databaseSkill as item (item.skill)}
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <a
+                            href={item.link}
+                            target="_blank"
+                            title={item.skill}
+                            class="group bg-gray shadow-gray flex h-40 w-40 flex-col items-center justify-center gap-2 rounded-sm p-4 shadow-lg transition hover:scale-110 hover:duration-300 sm:hover:scale-125"
+                        >
+                            <div class="text-center text-5xl">
+                                {@render renderIcon(item.skill, item.icon)}
+                            </div>
+                            <h4 class="text-center font-semibold">
+                                {item.skill}
+                            </h4>
+                        </a>
+                    </div>
+                {/each}
             </div>
         </div>
     </div>

@@ -201,10 +201,6 @@
         content: "\f1c1";
     }
 
-    .fa-git-alt::before {
-        content: "\f841";
-    }
-
     .fa-github::before {
         content: "\f09b";
     }
@@ -267,14 +263,6 @@
 
     .fa-paint-roller::before {
         content: "\f5aa";
-    }
-
-    .fa-palette::before {
-        content: "\f53f";
-    }
-
-    .fa-pen-ruler::before {
-        content: "\f5ae";
     }
 
     .fa-postgresql::before {

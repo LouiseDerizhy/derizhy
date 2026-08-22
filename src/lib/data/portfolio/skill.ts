@@ -13,11 +13,6 @@ export const languageSkill: Skill[] = [
         link: "https://www.javascript.com/",
     },
     {
-        skill: "Python",
-        icon: { src: "fa-brands fa-python", type: "fa" },
-        link: "https://www.python.org/",
-    },
-    {
         skill: "Java",
         icon: { src: "fa-brands fa-java", type: "fa" },
         link: "https://www.java.com/en/",
@@ -28,9 +23,9 @@ export const languageSkill: Skill[] = [
         link: "https://en.wikipedia.org/wiki/SQL",
     },
     {
-        skill: "CSS",
-        icon: { src: "fa-brands fa-css", type: "fa" },
-        link: "https://en.wikipedia.org/wiki/CSS",
+        skill: "Python",
+        icon: { src: "fa-brands fa-python", type: "fa" },
+        link: "https://www.python.org/",
     },
 ];
 
@@ -46,19 +41,9 @@ export const frameworkSkill: Skill[] = [
         link: "https://tailwindcss.com/",
     },
     {
-        skill: "Node.js",
-        icon: { src: "fa-brands fa-node-js", type: "fa" },
-        link: "https://nodejs.org/en",
-    },
-    {
         skill: "Spring Boot",
         icon: { src: imageRender.springbootIcon, type: "svg" },
         link: "https://spring.io/",
-    },
-    {
-        skill: "Express.js",
-        icon: { src: imageRender.expressIcon, type: "svg" },
-        link: "https://expressjs.com/",
     },
 ];
 
@@ -82,23 +67,5 @@ export const databaseSkill: Skill[] = [
         skill: "MySQL",
         icon: { src: imageRender.mysqlIcon, type: "svg" },
         link: "https://www.mysql.com/",
-    },
-];
-
-export const toolSkill: Skill[] = [
-    {
-        skill: "Git",
-        icon: { src: "fa-brands fa-git-alt", type: "fa" },
-        link: "https://git-scm.com/",
-    },
-    {
-        skill: "pnpm",
-        icon: { src: imageRender.pnpmIcon, type: "svg" },
-        link: "https://pnpm.io/",
-    },
-    {
-        skill: "Figma",
-        icon: { src: "fa-brands fa-figma", type: "fa" },
-        link: "https://www.figma.com/",
     },
 ];

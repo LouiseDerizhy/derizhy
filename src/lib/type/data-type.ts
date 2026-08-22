@@ -58,7 +58,10 @@ export type Project = {
     title: string;
     subtitle: string;
     icon: string;
-    highlightTech: string;
+    highlightTech: {
+        title: string;
+        logo: string;
+    };
     media: {
         title: string;
         url: string;
