@@ -78,7 +78,7 @@ export const project: Project[] = [
     {
         id: 12,
         title: "Browser Automation",
-        subtitle: "Background Headless Browser for Task Automation",
+        subtitle: "Background Task Automation",
         icon: "fa-regular fa-browser",
         highlightTech: { title: "TypeScript", logo: "fa-brands fa-typescript" },
         media: [],
@@ -233,7 +233,7 @@ export const project: Project[] = [
     {
         id: 7,
         title: "HIS Services",
-        subtitle: "Hospital Information System Service",
+        subtitle: "Hospital Information System Service Backend",
         icon: "fa-regular fa-server",
         highlightTech: { title: "Java", logo: "fa-brands fa-java" },
         type: ["Back-End"],
