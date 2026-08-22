@@ -189,7 +189,7 @@
                                             </a>
                                         {/each}
                                     {:else}
-                                        Documentation not available due to
+                                        Documentation is not available due to
                                         organization confidentiality.
                                     {/if}
                                 </div>
