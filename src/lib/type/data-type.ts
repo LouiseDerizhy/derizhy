@@ -69,10 +69,9 @@ export type Project = {
         | "Desktop App"
         | "Full-Stack Web"
         | "Front-End Web"
+        | "Back-End"
         | "Data Analytics"
-        | "Cryptography"
-        | "Artificial Intelligence"
-        | "UI & UX"
+        | "Advanced Technology"
     )[];
     description: string[];
     techs: string[];

@@ -1,7 +1,7 @@
 import assessmentBuilder from "$lib/assets/pdf/assessment-builder.pdf";
-import helpMeProposal from "$lib/assets/pdf/help-me-proposal.pdf";
 import mtPrinter from "$lib/assets/pdf/mt-printer.pdf";
 import pos from "$lib/assets/pdf/pos.pdf";
+import rpcBudrun from "$lib/assets/pdf/rpc-budrun.pdf";
 import type { Project } from "$lib/type/data-type";
 
 export const project: Project[] = [
@@ -13,20 +13,20 @@ export const project: Project[] = [
         highlightTech: "fa-brands fa-svelte",
         media: [
             {
-                title: "FrontEnd Source Code",
+                title: "Source Code",
                 url: "https://github.com/LouiseDerizhy/buddhayana-run-rpc-qr-scanner",
                 typeSymbol: { src: "fa-brands fa-github", type: "fa" },
+            },
+            {
+                title: "Documentation",
+                url: rpcBudrun,
+                typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
             },
             {
                 title: "Live Demo",
                 url: "https://rpc.derizhy.com",
                 typeSymbol: { src: "fa-regular fa-browser", type: "fa" },
             },
-            // {
-            //     title: "Documentation",
-            //     url: mtPrinter,
-            //     typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
-            // },
         ],
         time: "August 2026",
         type: ["Full-Stack Web"],
@@ -45,10 +45,9 @@ export const project: Project[] = [
         ],
         techs: [
             "Svelte",
-            "Google Spreadsheet",
+            "TypeScript",
             "Apps Script",
             "Git",
-            "TypeScript",
             "Tailwind CSS",
         ],
     },
@@ -193,19 +192,48 @@ export const project: Project[] = [
         techs: [
             "Svelte",
             "TypeScript",
-            "Java",
             "Tailwind CSS",
-            "SQL",
             "Redis",
+            "Java",
+            "SQL",
             "Spring Boot",
             "PostgreSQL",
-            "MongoDB",
             "shadcn-svelte",
             "pnpm",
         ],
     },
     {
         id: 7,
+        title: "HIS Services",
+        subtitle: "Hospital Information System Service",
+        icon: "fa-regular fa-server",
+        highlightTech: "fa-brands fa-java",
+        type: ["Back-End"],
+        media: [],
+        time: "October 2022 - Now",
+        description: [
+            "**Problem**",
+            "The Hospital Information System (HIS) initially followed a **monolithic architecture**, where multiple business functions were tightly coupled within a single application. As the system grew in complexity and the number of hospital services increased, maintaining and enhancing the application became more challenging.",
+            "",
+            "Changes to one part of the system could potentially affect other components, while deploying updates often required changes to the application as a whole. This created challenges in maintaining service flexibility, development efficiency, and system scalability.",
+            "",
+            "**Solution**",
+            "I participated in the migration of the Hospital Information System from a monolithic architecture toward a **microservices-based architecture**.",
+            "",
+            "The migration involved separating selected functionalities into independent services that could be developed, maintained, and deployed more independently. This approach reduced coupling between system components and allowed individual services to evolve according to their specific requirements.",
+            "",
+            "As part of the development team, I was responsible for **developing and maintaining** several backend services supporting the Hospital Information System. I also worked on integrating these services with other components of the system to ensure that existing hospital workflows continued to operate correctly.",
+        ],
+        techs: [
+            "Java",
+            "Springboot",
+            "SQL",
+            "PostgreSQL",
+            "Oracle",
+        ],
+    },
+    {
+        id: 6,
         title: "derizhy.com",
         subtitle: "Personal Website",
         icon: "fa-regular fa-layer-group",
@@ -230,7 +258,7 @@ export const project: Project[] = [
         techs: ["Svelte", "Tailwind CSS", "TypeScript", "HTML", "Git"],
     },
     {
-        id: 6,
+        id: 5,
         title: "Shopping Cart Database",
         subtitle: "Data Analytics Project",
         icon: "fa-regular fa-cart-shopping",
@@ -277,7 +305,7 @@ export const project: Project[] = [
         ],
     },
     {
-        id: 5,
+        id: 4,
         title: "Clo",
         subtitle: "E-Commerce Web",
         icon: "fa-regular fa-cart-shopping",
@@ -326,7 +354,7 @@ export const project: Project[] = [
         ],
     },
     {
-        id: 4,
+        id: 3,
         title: "Bike Rental",
         subtitle: "Data Analytics Project",
         icon: "fa-regular fa-bicycle",
@@ -348,12 +376,12 @@ export const project: Project[] = [
         techs: ["Python", "Pandas", "Matplotlib", "Seaborn", "Streamlit"],
     },
     {
-        id: 3,
+        id: 2,
         title: "Cryptography",
         subtitle: "Cryptography Algorithm Source Code",
         icon: "fa-regular fa-code",
         highlightTech: "fa-brands fa-python",
-        type: ["Cryptography"],
+        type: ["Advanced Technology"],
         media: [
             {
                 title: "Source Code",
@@ -377,12 +405,12 @@ export const project: Project[] = [
         techs: ["Python", "Keras", "TensorFlow", "Matplotlib"],
     },
     {
-        id: 2,
+        id: 1,
         title: "Image Processing",
         subtitle: "Image Processing Algorithm Source Code",
         icon: "fa-regular fa-image",
         highlightTech: "fa-brands fa-python",
-        type: ["Artificial Intelligence"],
+        type: ["Advanced Technology"],
         media: [
             {
                 title: "Source Code",
@@ -405,32 +433,5 @@ export const project: Project[] = [
             "- Histogram of Oriented Gradients (HOG)",
         ],
         techs: ["Python"],
-    },
-    {
-        id: 1,
-        title: "Help Me",
-        subtitle: "UI Design of Mobile App",
-        icon: "fa-regular fa-palette",
-        highlightTech: "fa-brands fa-figma",
-        type: ["UI & UX"],
-        media: [
-            {
-                title: "Prototype",
-                url: "https://www.figma.com/proto/mEWc3Po2FCXFfyuSgQGrwR/Help-Me?type=design&node-id=1-418&t=mXhQibhWYwIFbFPJ-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A418",
-                typeSymbol: { src: "fa-brands fa-figma", type: "fa" },
-            },
-            {
-                title: "Proposal",
-                url: helpMeProposal,
-                typeSymbol: { src: "fa-regular fa-file-pdf", type: "fa" },
-            },
-        ],
-        time: "April - July 2023",
-        description: [
-            "Mikroskil University - Digital Start Up Project.",
-            "",
-            "This is a project from **Digital Start Up** Lecture where I built a prototype of an application called '**Help Me**'. The concept of this application is to provide services to connect peoples who called '**Requester**' whom requesting for helps and create tasks and peoples who called '**Helper**' whom will take the tasks and solve them to get rewards.",
-        ],
-        techs: ["Figma"],
     },
 ];
