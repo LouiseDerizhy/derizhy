@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { theWayOfLife } from "$lib/data/journal/the-way-of-lfe";
+    import { theWayOfLife } from "$lib/data/journal/the-way-of-life";
     import { parseBoldHTML } from "$lib/utils";
 </script>
 
