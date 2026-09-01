@@ -12,6 +12,30 @@ export const buddhisSiteIntro: JournalData = {
 
 export const siteList: BuddhistSite[] = [
     {
+        id: "kek-lok-si-temple",
+        link: "/journal/visited-buddhist-site/kek-lok-si-temple",
+        description: "Visit to Kek lok Si Temple, George Town, Malaysia",
+        title: "Kek lok Si Temple",
+        location: "George Town, Malaysia",
+        locationLink: "https://maps.app.goo.gl/G6hsdBxhWuyqL8cCA",
+        pic: imageRender.kekLokSiTempleGeorgeTown,
+        time: "28th August 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.1137160280655!2d100.27103767603784!3d5.399641294579431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac2185dfc8665%3A0x2c9084ea7f433ec4!2sKek%20Lok%20Si%20Temple!5e0!3m2!1sen!2sid!4v1788255312028!5m2!1sen!2sid",
+        story: [
+            "On 28th August 2026, I visited **Kek Lok Si** with my family. Even though the temple is located on a hill, the weather was surprisingly hot. With all the uphill and downhill paths, exploring the place almost felt like going on a hike.",
+            "There are two ways to reach the upper part of the temple. You can either walk or take the **cable car**. The iconic **pagoda** is located on another side of the complex, so after reaching the top, we had to go back down and walk uphill again to get there. It was definitely a bit tiring!",
+            "Overall, Kek Lok Si felt more like a popular tourist attraction than a quiet place of worship. There were plenty of visitors around, taking pictures and exploring the complex.",
+            "Something funny happened when we were about to leave. As we passed the first stop, a taxi driver offered to take us back to our accommodation for MYR 30. Since we had paid only MYR 14 to get there, MYR 30 felt way too expensive, basically more than double what we had paid. So I immediately turned him down. After we walked away, he followed us and warned us that it would be even more expensive down below. We didn't really care and kept walking. Then he gave us his final offer: MYR 25. I just told him, “If it's more expensive down there, we'll just come back up here.” Hahaha. Well… we eventually reached the bottom, near the main entrance, and checked Grab. The price was MYR 42. We were shocked. But then we walked just a few dozen meters away from the entrance, checked again—and suddenly the price dropped to only MYR 9. So yeah… maybe the taxi driver wasn't completely wrong about the price going up, but he definitely wasn't getting MYR 25 from us.",
+        ],
+        timeline: [
+            {
+                time: "28th August 2026",
+                event: "Vacation Trip",
+            },
+        ],
+    },
+    {
         id: "vihara-borobudur-medan",
         link: "/journal/visited-buddhist-site/vihara-borobudur-medan",
         description: "Visit to Vihara Borobudur, Medan, Indonesia",
