@@ -1,5 +1,4 @@
 <script lang="ts">
-    import SectionFunFact from "$lib/section/section-fun-fact.svelte";
     import SectionHome from "$lib/section/section-home.svelte";
     import SectionJournal from "$lib/section/section-journal.svelte";
 </script>
@@ -12,6 +11,4 @@
 
 <div class="bg-[url('$lib/assets/svg/background.svg')] bg-repeat pb-40">
     <SectionJournal />
-
-    <SectionFunFact />
 </div>

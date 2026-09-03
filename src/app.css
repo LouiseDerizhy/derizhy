@@ -69,11 +69,13 @@
 
 @layer components {
     .gradient-text {
-        background-image: linear-gradient(-225deg,
-                #f8e9a1 0%,
-                #b72946 33%,
-                #6cf7b2 66%,
-                #f8e9a1 100%);
+        background-image: linear-gradient(
+            -225deg,
+            #f8e9a1 0%,
+            #b72946 33%,
+            #6cf7b2 66%,
+            #f8e9a1 100%
+        );
         background-size: 200% auto;
         background-clip: text;
         -webkit-background-clip: text;
@@ -133,14 +135,6 @@
         content: "\f788";
     }
 
-    .fa-cat::before {
-        content: "\1f408";
-    }
-
-    .fa-cheese-swiss::before {
-        content: "\1f9c0";
-    }
-
     .fa-chevron-down::before {
         content: "\f078";
     }
@@ -157,24 +151,8 @@
         content: "\f121";
     }
 
-    .fa-crown::before {
-        content: "\f521";
-    }
-
-    .fa-css::before {
-        content: "\e6a2";
-    }
-
-    .fa-cup-straw-swoosh::before {
-        content: "\e364";
-    }
-
     .fa-database::before {
         content: "\f1c0";
-    }
-
-    .fa-dharmachakra::before {
-        content: "\2638";
     }
 
     .fa-envelope::before {
@@ -245,18 +223,6 @@
         content: "\f002";
     }
 
-    .fa-microphone::before {
-        content: "\f130";
-    }
-
-    .fa-microscope::before {
-        content: "\f610";
-    }
-
-    .fa-music::before {
-        content: "\1f3b5";
-    }
-
     .fa-node-js::before {
         content: "\f3d3";
     }
@@ -307,10 +273,6 @@
 
     .fa-typescript::before {
         content: "\e840";
-    }
-
-    .fa-user::before {
-        content: "\1f464";
     }
 
     .fa-users::before {
