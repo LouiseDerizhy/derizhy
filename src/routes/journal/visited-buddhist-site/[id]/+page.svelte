@@ -64,14 +64,14 @@
                     />
                 </div>
                 {#each data.story as p, i (i)}
-                    <p class="mb-4 text-justify">
+                    <p class="mb-4 text-justify last:mb-2">
                         <!-- eslint-disable-next-line svelte/no-at-html-tags -->
                         {@html parseBoldHTML(p, false)}
                     </p>
                 {/each}
             </div>
         </div>
-        <div>
+        <div class="mb-4">
             <h3 class="text-xl font-semibold uppercase sm:text-2xl">
                 Memorable Visit Timeline
             </h3>

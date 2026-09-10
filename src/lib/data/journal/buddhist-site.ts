@@ -12,6 +12,37 @@ export const buddhisSiteIntro: JournalData = {
 
 export const siteList: BuddhistSite[] = [
     {
+        id: "mahapajapati-buddhist-center",
+        link: "/journal/visited-buddhist-site/mahapajapati-buddhist-center",
+        description:
+            "Visit to Mahapajapati Buddhist Center, Deli Serdang, Indonesia",
+        title: "Mahapajapati Buddhist Center",
+        location: "Deli Serdang, Indonesia",
+        locationLink: "https://maps.app.goo.gl/wvKtzCUMYLsqw6cy9",
+        pic: imageRender.mahapajapatiBuddhistCenter,
+        time: "6th September 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.4671817651797!2d98.67490557602919!3d3.478604696495783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313b500f7af0cd%3A0xb75d823893b154ed!2sMahapajapati%20Buddhist%20Center!5e0!3m2!1sen!2sid!4v1789012331376!5m2!1sen!2sid",
+        story: [
+            "My first visit to **Mahapajapati Buddhist Center** was on December 7th, 2026, for a blood donation event held there. Normally, I don't pass the screening for blood donation because of my hemoglobin level, but this time I finally made it and was able to donate blood.",
+            "The funny part happened about an hour or two later. After donating, I had already walked around the vihara and even had something to eat, so I thought I was completely fine. Then, during another health check, they pricked my finger to check my blood. The needle went in harder than I expected and caught me completely off guard. Apparently, that little shock was enough to make me feel dizzy, and before I knew it, I passed out.",
+            "My sudden blackout caused quite a panic around the vihara, including among the nuns there. Meanwhile, I was basically just lying there unconscious while everyone else was freaking out. Looking back, it was definitely an unexpected way to make my first visit memorable. Hahaha.",
+            "The vihara is led by **Y.M. Bhiksuni Bhadrasudhiyanti Mahasthavira**, also known as **Suhu Xian Jing**. There are also several bhikkhunis who are her disciples.",
+            "The name Mahapajapati itself seems to be inspired by **Mahapajapati Gotami**, an important figure in Buddhist history. She was the Buddha's maternal aunt and foster mother who raised him after the passing of his mother, Queen Maya. She later became the **first woman** to be ordained as a bhikkhuni and played an important role in the establishment of the Buddhist nuns' order.",
+            "So, beyond its name, Mahapajapati Buddhist Center also carries a connection to the history of women in Buddhism and the long tradition of Buddhist monastic life.",
+        ],
+        timeline: [
+            {
+                time: "6th September 2026",
+                event: "Sanghadana Ulambana",
+            },
+            {
+                time: "7th December 2025",
+                event: "Blood Donor",
+            },
+        ],
+    },
+    {
         id: "kek-lok-si-temple",
         link: "/journal/visited-buddhist-site/kek-lok-si-temple",
         description: "Visit to Kek lok Si Temple, George Town, Malaysia",

@@ -17,6 +17,7 @@ import smrajaLogo from "$lib/assets/image/logo/smraja.webp";
 import ehipassikoHouseMedan from "$lib/assets/image/vihara/ehipassiko_house_medan.webp";
 import kekLokSiTempleGeorgeTown from "$lib/assets/image/vihara/kek_lok_si_temple_george_town.webp";
 import mahaAuraSalaBuddhistCenterMedan from "$lib/assets/image/vihara/maha_aura_sala_buddhist_center_medan.webp";
+import mahapajapatiBuddhistCenter from "$lib/assets/image/vihara/mahapajapati_buddhist_center_deli_serdang.webp";
 import samuderaMahaDharaniMedan from "$lib/assets/image/vihara/samudera_maha_dharani_medan.webp";
 import viharaAvalokitesvaraSibolga from "$lib/assets/image/vihara/vihara_avalokitesvara_sibolga.webp";
 import viharaBorobudurMedan from "$lib/assets/image/vihara/vihara_borobudur_medan.webp";
@@ -65,4 +66,5 @@ export const imageRender = {
     mahaAuraSalaBuddhistCenterMedan,
     viharaBorobudurMedan,
     kekLokSiTempleGeorgeTown,
+    mahapajapatiBuddhistCenter,
 };
