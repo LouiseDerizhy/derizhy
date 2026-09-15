@@ -12,8 +12,34 @@ export const buddhisSiteIntro: JournalData = {
 
 export const siteList: BuddhistSite[] = [
     {
-        id: "mahapajapati-buddhist-center",
-        link: "/journal/visited-buddhist-site/mahapajapati-buddhist-center",
+        id: "vihara-avalokitesvara-padangsidimpuan",
+        link: "/journal/visited-buddhist-site/vihara-avalokitesvara-padangsidimpuan",
+        description:
+            "Visit to Vihara Avalokitesvara, Padangsidimpuan, Indonesia",
+        title: "Vihara Avalokitesvara",
+        location: "Padangsidimpuan, Indonesia",
+        locationLink: "https://maps.app.goo.gl/oB9zzpadUYpTq2XT7",
+        pic: imageRender.viharaAvalokitesvaraPadangsidimpuan,
+        time: "12th September 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.640201932753!2d99.25147857602404!3d1.3924070985944499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302c1d0016389825%3A0xc38d4c2b9e5008d1!2sVihara%20Avalokitesvara!5e0!3m2!1sen!2sid!4v1789439609556!5m2!1sen!2sid",
+        story: [
+            "On 11th September 2026, my team and I from **Sekber PMVBI (Pemuda Buddhayana) Provinsi Sumatera Utara** left Medan and headed to **Padangsidimpuan** to visit **Vihara Avalokitesvara**. This was one of the farthest destinations we had visited from our secretariat office, second only to Vihara Vimala Dharma in Gunungsitoli, Nias.",
+            "After a long overnight journey, we finally arrived at Vihara Avalokitesvara at around 5 AM the next morning. Needless to say, we were pretty tired by the time we got there. So, we go to sleep for a few hours before start our activity",
+            "The vihara itself is quite large, with a small garden area behind the main building. But what really caught my attention was the number of people coming for pujabakti on Sunday. Usually, in many viharas, Sunday pujabakti is mostly attended by children and young people. But here, it was different. Many adult Buddhist also regularly came to the vihara for pujabakti on Sundays.",
+            "What makes this even more interesting is the relatively small Buddhist community in Padangsidimpuan. From the information I received, there are only around 120 Buddhist families in the area. Despite the small number, the community seems to be quite active and committed to keeping their Buddhist activities alive.",
+            "The vihara also has a Buddhist youth organization called **Persaudaraan Muda-mudi Vihara Avalokitesvara, Padangsidimpuan (PMVAPS)**. Although they have a relatively small number of members, they are a close-knit group and, honestly, a lot of fun to hang out with. Sometimes, having a small group isn't a disadvantage at all—it can actually make the community feel much closer.",
+        ],
+        timeline: [
+            {
+                time: "12th-13th September 2026",
+                event: "Visit to PMVAPS",
+            },
+        ],
+    },
+    {
+        id: "mahapajapati-buddhist-center-deli-serdang",
+        link: "/journal/visited-buddhist-site/mahapajapati-buddhist-center-deli-serdang",
         description:
             "Visit to Mahapajapati Buddhist Center, Deli Serdang, Indonesia",
         title: "Mahapajapati Buddhist Center",
@@ -43,8 +69,8 @@ export const siteList: BuddhistSite[] = [
         ],
     },
     {
-        id: "kek-lok-si-temple",
-        link: "/journal/visited-buddhist-site/kek-lok-si-temple",
+        id: "kek-lok-si-temple-george-town",
+        link: "/journal/visited-buddhist-site/kek-lok-si-temple-george-town",
         description: "Visit to Kek lok Si Temple, George Town, Malaysia",
         title: "Kek lok Si Temple",
         location: "George Town, Malaysia",

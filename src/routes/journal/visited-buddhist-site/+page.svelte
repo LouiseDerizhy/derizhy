@@ -74,7 +74,7 @@
             <div
                 class="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-6 xl:gap-12"
             >
-                {#each buddhistSite as item (item.title)}
+                {#each buddhistSite as item (item.id)}
                     <div
                         class="bg-gray shadow-gray flex h-auto flex-col rounded-sm text-white shadow-lg"
                     >
@@ -107,7 +107,9 @@
                                 <span class="fa-regular fa-location-dot"></span>
                                 {item.location}
                             </a>
-                            <div class="text-yellow mt-2 flex grow items-end">
+                            <div
+                                class="text-yellow mt-2 flex grow items-end text-sm"
+                            >
                                 <a
                                     href={`/journal/visited-buddhist-site/${item.id}`}
                                     class="transition-all duration-300 hover:translate-x-2.5"

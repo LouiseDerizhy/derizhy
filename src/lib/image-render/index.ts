@@ -19,6 +19,7 @@ import kekLokSiTempleGeorgeTown from "$lib/assets/image/vihara/kek_lok_si_temple
 import mahaAuraSalaBuddhistCenterMedan from "$lib/assets/image/vihara/maha_aura_sala_buddhist_center_medan.webp";
 import mahapajapatiBuddhistCenter from "$lib/assets/image/vihara/mahapajapati_buddhist_center_deli_serdang.webp";
 import samuderaMahaDharaniMedan from "$lib/assets/image/vihara/samudera_maha_dharani_medan.webp";
+import viharaAvalokitesvaraPadangsidimpuan from "$lib/assets/image/vihara/vihara_avalokitesvara_padangsidimpuan.webp";
 import viharaAvalokitesvaraSibolga from "$lib/assets/image/vihara/vihara_avalokitesvara_sibolga.webp";
 import viharaBorobudurMedan from "$lib/assets/image/vihara/vihara_borobudur_medan.webp";
 import viharaBuddhaBerastagiKaro from "$lib/assets/image/vihara/vihara_buddha_berastagi_karo.webp";
@@ -67,4 +68,5 @@ export const imageRender = {
     viharaBorobudurMedan,
     kekLokSiTempleGeorgeTown,
     mahapajapatiBuddhistCenter,
+    viharaAvalokitesvaraPadangsidimpuan,
 };
