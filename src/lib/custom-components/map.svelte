@@ -314,13 +314,13 @@
 
                     <!-- DESCRIPTION -->
                     {#if selectedLocation.description}
-                        <p class="text-sm leading-6 text-gray-300">
+                        <p class="mb-6 text-sm leading-6 text-gray-300">
                             {selectedLocation.description}
                         </p>
                     {/if}
 
                     <!-- ACTIONS -->
-                    <div class="mt-6 flex flex-col gap-3">
+                    <div class="flex flex-col gap-3">
                         <a
                             href={selectedLocation.link}
                             class="bg-yellow flex items-center justify-center gap-2 rounded-sm px-4 py-3 text-sm text-gray-900 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
