@@ -39,6 +39,7 @@ jobs:
 
       - name: Build SvelteKit site
         run: pnpm run build
+        env: PUBLIC_MAPTILER_KEY: ${{ secrets.PUBLIC_MAPTILER_KEY }}
 
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v4
