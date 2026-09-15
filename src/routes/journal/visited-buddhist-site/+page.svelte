@@ -1,12 +1,15 @@
 <script lang="ts">
+    import Map from "$lib/custom-components/map.svelte";
     import SearchBar from "$lib/custom-components/search-bar.svelte";
     import {
         buddhisSiteIntro,
+        locationList,
         siteList,
     } from "$lib/data/journal/buddhist-site";
     import type { BuddhistSite } from "$lib/type/data-type";
     import { parseBoldHTML } from "$lib/utils";
 
+    const locations = locationList;
     let search: string = $state("");
 
     let buddhistSite: BuddhistSite[] = $derived.by(() => {
@@ -55,6 +58,12 @@
                         {@html parseBoldHTML(p, false)}
                     </p>
                 {/each}
+            </div>
+        </div>
+        <div>
+            <h3 class="text-xl font-semibold uppercase sm:text-2xl">Map</h3>
+            <div>
+                <Map {locations}></Map>
             </div>
         </div>
         <div>

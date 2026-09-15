@@ -43,6 +43,7 @@
 		]
 	},
 	"dependencies": {
-		"aos": "^2.3.4"
+		"aos": "^2.3.4",
+		"maplibre-gl": "^6.9.1"
 	}
 }

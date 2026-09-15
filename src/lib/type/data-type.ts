@@ -162,3 +162,17 @@ type BuddhistSiteTimeline = {
     event: string;
     link?: string;
 };
+
+export type SiteLocation = {
+    id: string;
+    title: string;
+    location: string;
+    date: string;
+    coordinates: {
+        latitude: number;
+        longitude: number;
+    };
+    link: string;
+    pic: string;
+    locationLink: string;
+};
