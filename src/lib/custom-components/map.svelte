@@ -1,6 +1,7 @@
 <script lang="ts">
     import { PUBLIC_MAPTILER_KEY } from "$env/static/public";
     import type { SiteLocation } from "$lib/type/data-type";
+    import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
     import "maplibre-gl/dist/maplibre-gl.css";
     import { onMount } from "svelte";
     import { SvelteMap } from "svelte/reactivity";
@@ -24,7 +25,6 @@
 
         element.type = "button";
         element.className = `
-			travel-map-marker
 			travel-map-marker
             group
             relative
@@ -174,12 +174,7 @@
     onMount(() => {
         void (async () => {
             maplibregl = await import("maplibre-gl");
-            maplibregl.setWorkerUrl(
-                new URL(
-                    "maplibre-gl/dist/maplibre-gl-csp-worker.js",
-                    import.meta.url,
-                ).toString(),
-            );
+            maplibregl.setWorkerUrl(workerUrl);
 
             map = new maplibregl.Map({
                 container: mapContainer,
