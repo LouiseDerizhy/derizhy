@@ -174,6 +174,13 @@
     onMount(() => {
         void (async () => {
             maplibregl = await import("maplibre-gl");
+            maplibregl.setWorkerUrl(
+                new URL(
+                    "maplibre-gl/dist/maplibre-gl-csp-worker.js",
+                    import.meta.url,
+                ).toString(),
+            );
+
             map = new maplibregl.Map({
                 container: mapContainer,
                 style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${PUBLIC_MAPTILER_KEY}`,
