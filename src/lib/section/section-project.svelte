@@ -77,7 +77,7 @@
                 disableType={false}
             />
             <div
-                class="text-gray mt-16 mb-5 ml-2"
+                class="text-gray mt-6 mb-5 ml-2"
                 data-aos="fade-up"
                 data-aos-duration="2000"
             >

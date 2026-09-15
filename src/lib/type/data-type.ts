@@ -175,4 +175,5 @@ export type SiteLocation = {
     link: string;
     pic: string;
     locationLink: string;
+    description?: string;
 };

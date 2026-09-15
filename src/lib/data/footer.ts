@@ -25,6 +25,11 @@ export const footerData: FooterData = {
                     href: "https://www.16personalities.com/profiles/39b4ed81dddba",
                     target: "_blank",
                 },
+                {
+                    title: "Visited Buddhist Site",
+                    href: "/journal/visited-buddhist-site",
+                    target: "",
+                },
             ],
         },
         {

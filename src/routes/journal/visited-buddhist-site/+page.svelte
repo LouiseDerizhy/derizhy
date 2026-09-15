@@ -60,9 +60,18 @@
                 {/each}
             </div>
         </div>
-        <div>
-            <h3 class="text-xl font-semibold uppercase sm:text-2xl">Map</h3>
+        <div class="mb-6">
+            <h3 class="text-xl font-semibold uppercase sm:text-2xl">
+                Interactive Map
+            </h3>
             <div>
+                <p class="text-justify">
+                    For better experience, I've visualized my journey into an
+                    interactive map. Click the pin for more information about
+                    the site.
+                </p>
+            </div>
+            <div class="mt-2">
                 <Map {locations}></Map>
             </div>
         </div>
@@ -76,7 +85,7 @@
                 disableType={true}
                 enableDataAos={false}
             />
-            <div class="text-gray mt-16 mb-5 ml-2">
+            <div class="text-gray mt-6 mb-5 ml-2">
                 Showing <span class="font-semibold">{buddhistSite.length}</span>
                 site{buddhistSite.length > 1 ? "s" : ""}
             </div>
