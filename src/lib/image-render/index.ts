@@ -6,6 +6,7 @@ import springbootIcon from "$lib/assets/svg/springboot.svg";
 
 import bitsmikroLogo from "$lib/assets/image/logo/bitsmikro.jpg";
 import cmuLogo from "$lib/assets/image/logo/cmu.jpg";
+import mestikaLogo from "$lib/assets/image/logo/mestika.png";
 import mikroskilLogo from "$lib/assets/image/logo/mikroskil.webp";
 import mtLogo from "$lib/assets/image/logo/mt.jpg";
 import onemitsLogo from "$lib/assets/image/logo/onemits.webp";
@@ -50,6 +51,7 @@ export const imageRender = {
     sekberLogo,
     mikroskilLogo,
     onemitsLogo,
+    mestikaLogo,
 
     // Vihara
     viharaAvalokitesvaraSibolga,

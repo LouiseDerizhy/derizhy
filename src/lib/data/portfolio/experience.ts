@@ -3,10 +3,19 @@ import type { Experience } from "$lib/type/data-type";
 
 export const experience: Experience[] = [
     {
+        id: 4,
+        position: "Full Stack Developer",
+        company: "PT Bank Mestika Dharma Tbk",
+        time: "Oct 2026 - Present",
+        logo: imageRender.mestikaLogo,
+        description: ["Maintaining Banking System Software"],
+        techs: ["TypeScript"],
+    },
+    {
         id: 2,
         position: "Software Developer",
         company: "PT Murni Sadar Tbk",
-        time: "Oct 2022 - Present",
+        time: "Oct 2022 - Oct 2026",
         logo: imageRender.mtLogo,
         description: [
             "Experienced in designing, developing, maintaining, and deploying healthcare software.",
