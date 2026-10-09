@@ -2,25 +2,33 @@ import { imageRender } from "$lib/image-render";
 import type { Experience } from "$lib/type/data-type";
 
 export const experience: Experience[] = [
-    {
-        id: 4,
-        position: "Full Stack Developer",
-        company: "PT Bank Mestika Dharma Tbk",
-        time: "Oct 2026 - Present",
-        logo: imageRender.mestikaLogo,
-        description: ["Maintaining Banking System Software"],
-        techs: ["TypeScript"],
-    },
+    // {
+    //     id: 4,
+    //     position: "Full Stack Developer",
+    //     company: "PT Bank Mestika Dharma Tbk",
+    //     time: "Oct 2026 - Present",
+    //     logo: imageRender.mestikaLogo,
+    //     description: ["Maintaining Banking System Software"],
+    //     techs: ["TypeScript"],
+    // },
     {
         id: 2,
-        position: "Software Developer",
+        position: "Full Stack Developer",
         company: "PT Murni Sadar Tbk",
         time: "Oct 2022 - Oct 2026",
         logo: imageRender.mtLogo,
         description: [
-            "Experienced in designing, developing, maintaining, and deploying healthcare software.",
+            "Experienced in designing, developing, maintaining, and deploying healthcare software solutions as part of the core development team behind **MTHIS 2.0 (Murni Teguh Hospital Information System)**.",
             "",
-            "I am part of the core team that builds a Hospital Information System called **MTHIS 2.0**. I created front-end components in a Svelte environment, handled authentication and authorization, and participated in database design for scalable data management.",
+            "My responsibilities span full-stack development, reusable frontend component development, authentication and authorization, database design, API integration, and backend service maintenance. I also contribute to system modernization, performance optimization, and workflow automation to support hospital operations.",
+            "",
+            "**Key Projects**",
+            "**HIS Backends**: Backend service development, maintenance, query optimization, and microservices migration.",
+            "**MTHIS 2.0**: Hospital information system development and feature implementation.",
+            "**Assessment Builder**: Development of a customizable assessment form builder.",
+            "**Browser Automation**: Automation of browser-based workflows, document generation, and file processing.",
+            "**MT-Printer**: Desktop printing application integrating the hospital's web application with local printers.",
+            "**E-Claim**: Development and maintenance of electronic claims-related functionality.",
         ],
         techs: [
             "Svelte",
