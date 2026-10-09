@@ -75,7 +75,7 @@ export const project: Project[] = [
         icon: "fa-regular fa-browser",
         highlightTech: { title: "TypeScript", logo: "fa-brands fa-typescript" },
         media: [],
-        time: "February 2026",
+        time: "February - October 2026",
         type: ["Back-End"],
         description: [
             "Part of **MTHIS 2.0 Project**.",
@@ -105,7 +105,7 @@ export const project: Project[] = [
         icon: "fa-regular fa-print",
         highlightTech: { title: "React", logo: "fa-brands fa-react" },
         media: [],
-        time: "April - July 2025",
+        time: "April 2025 - August 2026",
         type: ["Desktop App"],
         description: [
             "Part of **MTHIS 2.0 Project**.",
@@ -125,7 +125,7 @@ export const project: Project[] = [
         icon: "fa-regular fa-file",
         highlightTech: { title: "Svelte", logo: "fa-brands fa-svelte" },
         media: [],
-        time: "August 2024 - Now",
+        time: "August 2024 - October 2026",
         type: ["Full-Stack Web"],
         description: [
             "Part of **MTHIS 2.0 Project**.",
@@ -190,7 +190,7 @@ export const project: Project[] = [
         highlightTech: { title: "Svelte", logo: "fa-brands fa-svelte" },
         type: ["Full-Stack Web"],
         media: [],
-        time: "January 2024 - Now",
+        time: "January 2024 - October 2026",
         description: [
             "**MTHIS** (Murni Teguh Hospital Information System) is a hospital information system that manages and integrates medical, administrative, and financial functions within a healthcare facility to streamline operations and improve patient care.",
             "",
@@ -229,7 +229,7 @@ export const project: Project[] = [
         highlightTech: { title: "Java", logo: "fa-brands fa-java" },
         type: ["Back-End"],
         media: [],
-        time: "October 2022 - Now",
+        time: "October 2022 - October 2026",
         description: [
             "Contributed to the ongoing migration of the Hospital Information System (HIS) from a monolithic architecture toward a microservices-based architecture.",
             "",
