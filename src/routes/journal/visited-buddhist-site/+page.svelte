@@ -7,7 +7,7 @@
         siteList,
     } from "$lib/data/journal/buddhist-site";
     import type { BuddhistSite } from "$lib/type/data-type";
-    import { parseBoldHTML } from "$lib/utils";
+    import { parseCustomHTML } from "$lib/utils";
 
     const locations = locationList;
     let search: string = $state("");
@@ -55,7 +55,7 @@
                 {#each buddhisSiteIntro.paragraph as p, i (i)}
                     <p class="mb-4 text-justify">
                         <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-                        {@html parseBoldHTML(p, false)}
+                        {@html parseCustomHTML(p, false)}
                     </p>
                 {/each}
             </div>

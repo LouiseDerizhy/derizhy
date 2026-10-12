@@ -1,7 +1,7 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
     import { siteList } from "$lib/data/journal/buddhist-site";
-    import { parseBoldHTML } from "$lib/utils";
+    import { parseCustomHTML } from "$lib/utils";
     import type { PageData } from "./$types";
 
     let { data }: { data: PageData } = $props();
@@ -66,7 +66,7 @@
                 {#each data.story as p, i (i)}
                     <p class="mb-4 text-justify last:mb-2">
                         <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-                        {@html parseBoldHTML(p, false)}
+                        {@html parseCustomHTML(p, false)}
                     </p>
                 {/each}
             </div>

@@ -1,6 +1,6 @@
 <script lang="ts">
     import { theWayOfLife } from "$lib/data/journal/the-way-of-life";
-    import { parseBoldHTML } from "$lib/utils";
+    import { parseCustomHTML } from "$lib/utils";
 </script>
 
 <section class="text-gray h-full min-h-screen w-full text-sm md:text-lg">
@@ -30,7 +30,7 @@
                     {#each item.paragraph as p, i (i)}
                         <p class="mb-4 text-justify">
                             <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-                            {@html parseBoldHTML(p, false)}
+                            {@html parseCustomHTML(p, false)}
                         </p>
                     {/each}
                 </div>

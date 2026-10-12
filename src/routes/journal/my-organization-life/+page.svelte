@@ -3,7 +3,7 @@
         organizationExperience,
         organizationIntro,
     } from "$lib/data/journal/organization";
-    import { parseBoldHTML } from "$lib/utils";
+    import { parseCustomHTML } from "$lib/utils";
 </script>
 
 <section class="text-gray h-full min-h-screen w-full text-sm md:text-lg">
@@ -32,7 +32,7 @@
                 {#each organizationIntro.paragraph as p, i (i)}
                     <p class="mb-4 text-justify">
                         <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-                        {@html parseBoldHTML(p, false)}
+                        {@html parseCustomHTML(p, false)}
                     </p>
                 {/each}
             </div>

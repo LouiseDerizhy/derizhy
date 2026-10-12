@@ -4,7 +4,7 @@
     import SkillBadge from "$lib/custom-components/skill-badge.svelte";
     import { project } from "$lib/data/portfolio/project";
     import type { Project } from "$lib/type/data-type";
-    import { parseBoldHTML, typeCount } from "$lib/utils";
+    import { parseCustomHTML, typeCount } from "$lib/utils";
     import AOS from "aos";
     import { fade, slide } from "svelte/transition";
 
@@ -164,7 +164,7 @@
                                 >
                                     {#each item.description as desc, i (i)}
                                         <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-                                        {@html parseBoldHTML(desc)}<br />
+                                        {@html parseCustomHTML(desc)}<br />
                                     {/each}
                                 </div>
                                 <div class="mt-6 font-semibold">

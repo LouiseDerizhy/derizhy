@@ -3,12 +3,12 @@ import type { Experience } from "$lib/type/data-type";
 
 export const experience: Experience[] = [
     // {
-    //     id: 4,
+    //     id: 3,
     //     position: "Full Stack Developer",
     //     company: "PT Bank Mestika Dharma Tbk",
     //     time: "Oct 2026 - Present",
     //     logo: imageRender.mestikaLogo,
-    //     description: ["Maintaining Banking System Software"],
+    //     description: ["Maintaining Banking System Software."],
     //     techs: ["TypeScript"],
     // },
     {
@@ -23,12 +23,12 @@ export const experience: Experience[] = [
             "My responsibilities span full-stack development, reusable frontend component development, authentication and authorization, database design, API integration, and backend service maintenance. I also contribute to system modernization, performance optimization, and workflow automation to support hospital operations.",
             "",
             "**Key Projects**",
-            "**HIS Backends**: Backend service development, maintenance, query optimization, and microservices migration.",
-            "**MTHIS 2.0**: Hospital information system development and feature implementation.",
-            "**Assessment Builder**: Development of a customizable assessment form builder.",
-            "**Browser Automation**: Automation of browser-based workflows, document generation, and file processing.",
-            "**MT-Printer**: Desktop printing application integrating the hospital's web application with local printers.",
-            "**E-Claim**: Development and maintenance of electronic claims-related functionality.",
+            "- **HIS Backends**: Backend service development, maintenance, query optimization, and microservices migration.",
+            "- **MTHIS 2.0**: Hospital information system development and feature implementation.",
+            "- **Assessment Builder**: Development of a customizable assessment form builder.",
+            "- **Browser Automation**: Automation of browser-based workflows, document generation, and file processing.",
+            "- **MT-Printer**: Desktop printing application integrating the hospital's web application with local printers.",
+            "- **E-Claim**: Development and maintenance of electronic claims-related functionality.",
         ],
         techs: [
             "Svelte",
@@ -54,9 +54,13 @@ export const experience: Experience[] = [
         time: "Aug 2023 - Dec 2023",
         logo: imageRender.revouLogo,
         description: [
-            "**Led Group 6 Balikpapan Section** in the Studi Independen - Kampus Merdeka program by the Ministry of Education",
+            "Led Group 6 of the Balikpapan Section in RevoU's Kampus Merdeka Independent Study Program (Batch 5), organized under Indonesia's Ministry of Education.",
             "",
-            "Lead two main projects: **Clo (E-Commerce Website)** and **Shopping Cart Database Analysis** (Data Analytics).",
+            "My experience spans data analytics, business insight generation, and full-stack web development. I led two capstone projects, applying data analysis techniques to identify business improvement opportunities and coordinating the development of an e-commerce platform.",
+            "",
+            "**Key Projects**",
+            "- **Shopping Cart Database**: Led a data analytics project investigating revenue trends and identifying opportunities for business growth. Recognized as Best Group in the Shopping Cart category.",
+            "- **Clo**: Led the development of a clothing-focused e-commerce web application, coordinating frontend and backend development.",
         ],
         techs: [
             "Python",

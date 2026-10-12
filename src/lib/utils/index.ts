@@ -22,11 +22,16 @@ export function debounce<T extends (...args: any[]) => void>(
     };
 }
 
-export function parseBoldHTML(text: string, darkTheme: boolean = true): string {
-    return text.replace(
-        /\*\*(.+?)\*\*/g,
-        `<span class="font-semibold ${darkTheme ? "text-yellow" : ""}">$1</span>`,
-    );
+export function parseCustomHTML(text: string, darkTheme: boolean = true) {
+    return text
+        .replace(
+            /\*\*(.+?)\*\*/g,
+            `<span class="font-semibold ${darkTheme ? "text-yellow" : ""}">$1</span>`,
+        )
+        .replace(
+            /^- (.+)$/gm,
+            '<span class="inline-block pl-4 -indent-2.5">• $1</span>',
+        );
 }
 
 export const typeCount = (data: { type: string[] }[]): SearchBarTypeCount[] => {
