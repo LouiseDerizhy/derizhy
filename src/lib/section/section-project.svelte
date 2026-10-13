@@ -41,6 +41,14 @@
         return filtered;
     });
 
+    let leftColumn: Project[] = $derived(
+        projectData.filter((_, index) => index % 2 === 0),
+    );
+
+    let rightColumn: Project[] = $derived(
+        projectData.filter((_, index) => index % 2 !== 0),
+    );
+
     function openDetailFn(selectedId: number) {
         if (!openDetail.includes(selectedId)) {
             openDetail = [...openDetail, selectedId];
@@ -55,6 +63,149 @@
         }
     });
 </script>
+
+{#snippet projectCard(item: Project)}
+    <div
+        class="bg-gray shadow-gray cursor-pointer rounded-sm p-6 text-white shadow-lg"
+        role="button"
+        tabindex="0"
+        aria-expanded={openDetail.includes(item.id)}
+        onclick={() => openDetailFn(item.id)}
+        onkeydown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                openDetailFn(item.id);
+            }
+        }}
+    >
+        <div class="flex w-full justify-between">
+            <div class="flex">
+                <div
+                    class="bg-lightgray flex h-12 min-h-12 w-12 min-w-12 items-center justify-center rounded-sm text-xl text-white duration-300 hover:scale-125"
+                >
+                    <span class={item.icon}></span>
+                </div>
+
+                <div class="ml-4">
+                    <div class="text-lg font-semibold">
+                        {item.title}
+                    </div>
+
+                    <div class="text-sm text-gray-200">
+                        {item.subtitle}
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-center">
+                    <span
+                        class="fa-regular fa-chevron-down transform transition-transform duration-300"
+                        class:rotate-180={openDetail.includes(item.id)}
+                    ></span>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="mt-4 flex flex-wrap justify-between gap-2 text-xs sm:text-sm"
+        >
+            <div class="flex gap-2">
+                <SkillBadgeMini
+                    className={item.highlightTech.logo}
+                    title={item.highlightTech.title}
+                />
+
+                <div
+                    class="text-gray rounded-full bg-white px-4 py-2 hover:bg-white/80"
+                >
+                    {item.type}
+                </div>
+            </div>
+
+            <div
+                class="bg-lightgray rounded-full px-4 py-2 hover:brightness-150"
+            >
+                {item.time}
+            </div>
+        </div>
+
+        <div class="mt-4 border-t border-white"></div>
+
+        {#if openDetail.includes(item.id)}
+            <div
+                class="overflow-hidden text-sm xl:text-base"
+                transition:slide|local
+            >
+                <div
+                    class="mt-4 text-gray-200"
+                    transition:fade={{ duration: 300 }}
+                >
+                    {#each item.description as desc, i (i)}
+                        <!-- eslint-disable-next-line svelte/no-at-html-tags -->
+                        {@html parseCustomHTML(desc)}<br />
+                    {/each}
+                </div>
+
+                <div class="mt-6 font-semibold">
+                    <span class="fa-solid fa-link text-yellow mr-1"></span>
+                    Project Resources
+                </div>
+
+                <div class="mt-2 flex flex-wrap gap-2">
+                    {#if item.media.length > 0}
+                        {#each item.media as media (media.title)}
+                            <a
+                                class="text-gray flex items-center rounded-sm bg-white px-4 py-2 text-xs duration-300 hover:bg-white/80 sm:text-sm"
+                                target="_blank"
+                                href={media.url}
+                            >
+                                <span class={media.typeSymbol.src + " mr-2"}
+                                ></span>
+                                {media.title}
+                            </a>
+                        {/each}
+                    {:else}
+                        Documentation is not available due to organization
+                        confidentiality.
+                    {/if}
+                </div>
+
+                <div class="mt-6 font-semibold">
+                    <span class="fa-solid fa-code text-yellow mr-1"></span>
+                    Technologies
+                </div>
+
+                <div
+                    class="mt-2 flex flex-wrap gap-2"
+                    transition:fade={{ duration: 300 }}
+                >
+                    {#each item.techs as tech (tech)}
+                        <SkillBadge name={tech} />
+                    {/each}
+                </div>
+            </div>
+        {:else}
+            <div
+                class="mt-4 flex flex-wrap gap-2"
+                transition:fade={{ duration: 200 }}
+            >
+                {#each item.techs.slice(0, 4) as tech (tech)}
+                    <SkillBadge name={tech} />
+                {/each}
+
+                {#if item.techs.length > 4}
+                    <div
+                        class="text-gray flex cursor-pointer items-center rounded-full bg-white px-4 py-2 text-xs duration-300 hover:bg-white/80 sm:text-sm"
+                        title={item.techs.slice(4).join(", ")}
+                    >
+                        +{item.techs.length - 4} more
+                    </div>
+                {/if}
+            </div>
+        {/if}
+    </div>
+{/snippet}
 
 <section
     id="project"
@@ -87,151 +238,26 @@
                     {selectedType.join(", ")}
                 </span>
             </div>
-            <div
-                class="grid grid-flow-row-dense grid-cols-1 items-start gap-6 md:grid-cols-2"
-                data-aos="fade-up"
-                data-aos-duration="2000"
-            >
-                {#each projectData as item (item.id)}
-                    <div
-                        class="bg-gray shadow-gray cursor-pointer rounded-sm p-6 text-white shadow-lg"
-                        role="button"
-                        tabindex="0"
-                        onclick={() => openDetailFn(item.id)}
-                        onkeydown={(e) => {
-                            if (e.key === "Enter" || e.key === " ") {
-                                e.preventDefault();
-                                openDetailFn(item.id);
-                            }
-                        }}
-                    >
-                        <div class="flex w-full justify-between">
-                            <div class="flex">
-                                <div
-                                    class="bg-lightgray flex h-12 min-h-12 w-12 min-w-12 items-center justify-center rounded-sm text-xl text-white duration-300 hover:scale-125"
-                                >
-                                    <span class={item.icon}></span>
-                                </div>
-                                <div class="ml-4">
-                                    <div class="text-lg font-semibold">
-                                        {item.title}
-                                    </div>
-                                    <div class="text-sm text-gray-200">
-                                        {item.subtitle}
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex items-center justify-center">
-                                    <span
-                                        class="fa-regular fa-chevron-down transform transition-transform duration-300"
-                                        class:rotate-180={openDetail.includes(
-                                            item.id,
-                                        )}
-                                    ></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="mt-4 flex flex-wrap justify-between gap-2 text-xs sm:text-sm"
-                        >
-                            <div class="flex gap-2">
-                                <SkillBadgeMini
-                                    className={item.highlightTech.logo}
-                                    title={item.highlightTech.title}
-                                ></SkillBadgeMini>
-                                <div
-                                    class="text-gray rounded-full bg-white px-4 py-2 hover:bg-white/80"
-                                >
-                                    {item.type}
-                                </div>
-                            </div>
-                            <div
-                                class="bg-lightgray rounded-full px-4 py-2 hover:brightness-150"
-                            >
-                                {item.time}
-                            </div>
-                        </div>
-                        <div class="mt-4 border-t border-white"></div>
-                        {#if openDetail.includes(item.id)}
-                            <div
-                                class="overflow-hidden text-sm xl:text-base"
-                                transition:slide|local
-                            >
-                                <div
-                                    class="mt-4 text-gray-200"
-                                    transition:fade={{ duration: 300 }}
-                                >
-                                    {#each item.description as desc, i (i)}
-                                        <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-                                        {@html parseCustomHTML(desc)}<br />
-                                    {/each}
-                                </div>
-                                <div class="mt-6 font-semibold">
-                                    <span
-                                        class="fa-solid fa-link text-yellow mr-1"
-                                    ></span>
-                                    Project Resources
-                                </div>
-                                <div class="mt-2 flex flex-wrap gap-2">
-                                    {#if item.media.length > 0}
-                                        {#each item.media as media (media.title)}
-                                            <a
-                                                class="text-gray flex items-center rounded-sm bg-white px-4 py-2 text-xs duration-300 hover:bg-white/80 sm:text-sm"
-                                                target="_blank"
-                                                href={media.url}
-                                            >
-                                                <span
-                                                    class={media.typeSymbol
-                                                        .src + " mr-2"}
-                                                ></span>
-                                                {media.title}
-                                            </a>
-                                        {/each}
-                                    {:else}
-                                        Documentation is not available due to
-                                        organization confidentiality.
-                                    {/if}
-                                </div>
-                                <div class="mt-6 font-semibold">
-                                    <span
-                                        class="fa-solid fa-code text-yellow mr-1"
-                                    ></span>
-                                    Technologies
-                                </div>
-                                <div
-                                    class="mt-2 flex flex-wrap gap-2"
-                                    transition:fade={{ duration: 300 }}
-                                >
-                                    {#each item.techs as tech (tech)}
-                                        <SkillBadge name={tech} />
-                                    {/each}
-                                </div>
-                            </div>
-                        {:else}
-                            <div
-                                class="mt-4 flex flex-wrap gap-2"
-                                transition:fade={{ duration: 200 }}
-                            >
-                                {#each item.techs.slice(0, 4) as tech (tech)}
-                                    <SkillBadge name={tech} />
-                                {/each}
+            <div data-aos="fade-up" data-aos-duration="2000">
+                <div class="flex flex-col gap-6 md:hidden">
+                    {#each projectData as item (item.id)}
+                        {@render projectCard(item)}
+                    {/each}
+                </div>
 
-                                {#if item.techs.length > 4}
-                                    <div
-                                        class="text-gray flex cursor-pointer items-center rounded-full bg-white px-4 py-2 text-xs duration-300 hover:bg-white/80 sm:text-sm"
-                                        title={item.techs
-                                            .slice(4)
-                                            .map((t) => t)
-                                            .join(", ")}
-                                    >
-                                        +{item.techs.length - 4} more
-                                    </div>
-                                {/if}
-                            </div>
-                        {/if}
+                <div class="hidden grid-cols-2 items-start gap-6 md:grid">
+                    <div class="flex min-w-0 flex-col gap-6">
+                        {#each leftColumn as item (item.id)}
+                            {@render projectCard(item)}
+                        {/each}
                     </div>
-                {/each}
+
+                    <div class="flex min-w-0 flex-col gap-6">
+                        {#each rightColumn as item (item.id)}
+                            {@render projectCard(item)}
+                        {/each}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
