@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { PUBLIC_MAPTILER_KEY } from "$env/static/public";
+    import { env } from "$env/dynamic/public";
     import type { SiteLocation } from "$lib/type/data-type";
     import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
     import "maplibre-gl/dist/maplibre-gl.css";
@@ -178,7 +178,7 @@
 
             map = new maplibregl.Map({
                 container: mapContainer,
-                style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${PUBLIC_MAPTILER_KEY}`,
+                style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${env.PUBLIC_MAPTILER_KEY}`,
                 center: DEFAULT_CENTER,
                 zoom: DEFAULT_ZOOM,
             });
