@@ -7,7 +7,8 @@
     let interval: ReturnType<typeof setInterval> | null = $state(null);
 
     onMount(() => {
-        beforeNavigate(() => {
+        beforeNavigate(({ shallow, type }) => {
+            if (shallow && type === 'goto') return;
             if (!progressBar) return;
 
             progress = 0;
@@ -18,14 +19,15 @@
             progressBar.style.width = progress + "%";
 
             interval = setInterval(() => {
-                if (progress < 90) {
-                    progress += 10;
-                    progressBar!.style.width = progress + "%";
-                }
+                    if (progress < 90) {
+                        progress += 10;
+                        (progressBar!).style.width = progress + "%";
+                    }
             }, 400);
         });
 
-        afterNavigate(() => {
+        afterNavigate(({ shallow, type }) => {
+            if (shallow && type === 'goto') return;
             if (!progressBar) return;
 
             progress = 100;
@@ -37,9 +39,11 @@
             }
 
             setTimeout(() => {
-                progress = 0;
-                progressBar!.style.width = "0%";
-            }, 500);
+                    progress = 0;
+                    (progressBar!).style.width = "0%";
+                },
+                500
+            );
         });
     });
 

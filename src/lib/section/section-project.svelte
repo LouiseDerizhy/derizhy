@@ -1,10 +1,10 @@
 <script lang="ts">
-    import SearchBar from "$lib/custom-components/search-bar.svelte";
-    import SkillBadgeMini from "$lib/custom-components/skill-badge-mini.svelte";
-    import SkillBadge from "$lib/custom-components/skill-badge.svelte";
-    import { project } from "$lib/data/portfolio/project";
-    import type { Project } from "$lib/type/data-type";
-    import { parseCustomHTML, typeCount } from "$lib/utils";
+    import SearchBar from "#lib/custom-components/search-bar.svelte";
+    import SkillBadgeMini from "#lib/custom-components/skill-badge-mini.svelte";
+    import SkillBadge from "#lib/custom-components/skill-badge.svelte";
+    import { project } from "#lib/data/portfolio/project.js";
+    import type { Project } from "#lib/type/data-type.js";
+    import { parseCustomHTML, typeCount } from "#lib/utils/index.js";
     import AOS from "aos";
     import { fade, slide } from "svelte/transition";
 

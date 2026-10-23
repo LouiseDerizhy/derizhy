@@ -3,8 +3,8 @@
         databaseSkill,
         frameworkSkill,
         languageSkill,
-    } from "$lib/data/portfolio/skill";
-    import type { IconImage } from "$lib/type/data-type";
+    } from "#lib/data/portfolio/skill.js";
+    import type { IconImage } from "#lib/type/data-type.js";
 </script>
 
 <section

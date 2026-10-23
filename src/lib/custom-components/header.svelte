@@ -1,9 +1,9 @@
 <script lang="ts">
-    import { browser } from "$app/environment";
+    import { browser } from '$app/env';
     import { page } from "$app/state";
-    import logo from "$lib/assets/svg/logo.svg";
-    import { menuForNav } from "$lib/data/menu";
-    import { getLink } from "$lib/utils";
+    import logo from "#lib/assets/svg/logo.svg";
+    import { menuForNav } from "#lib/data/menu.js";
+    import { getLink } from "#lib/utils/index.js";
     import { onDestroy, onMount } from "svelte";
 
     let openDropdown: string | null = $state(null);

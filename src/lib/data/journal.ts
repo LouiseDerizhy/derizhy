@@ -1,5 +1,5 @@
-import { imageRender } from "$lib/image-render";
-import type { JournalMenu } from "$lib/type/data-type";
+import { imageRender } from "#lib/image-render/index.js";
+import type { JournalMenu } from "#lib/type/data-type.js";
 
 export const journalMenu: JournalMenu[] = [
     {

@@ -1,5 +1,5 @@
 import { page } from "$app/state";
-import type { SearchBarTypeCount } from "$lib/type/data-type";
+import type { SearchBarTypeCount } from "#lib/type/data-type.js";
 
 export function getLink(baseLink: string, subLink: string): string {
     if (page.url.pathname === baseLink) {

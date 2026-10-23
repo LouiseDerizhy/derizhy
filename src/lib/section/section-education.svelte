@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { education } from "$lib/data/portfolio/education";
+    import { education } from "#lib/data/portfolio/education.js";
 </script>
 
 <section

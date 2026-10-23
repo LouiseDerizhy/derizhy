@@ -1,4 +1,4 @@
-import type { Menu, MetaMenu } from "$lib/type/data-type";
+import type { Menu, MetaMenu } from "#lib/type/data-type.js";
 import { journalMenu } from "./journal";
 import { siteList } from "./journal/buddhist-site";
 

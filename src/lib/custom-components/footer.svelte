@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { footerData } from "$lib/data/footer";
+    import { footerData } from "#lib/data/footer.js";
 </script>
 
 <footer

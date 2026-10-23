@@ -1,4 +1,4 @@
-import type { JournalData } from "$lib/type/data-type";
+import type { JournalData } from "#lib/type/data-type.js";
 
 export const speedcubingData: JournalData[] = [
     {

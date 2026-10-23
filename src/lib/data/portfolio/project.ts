@@ -1,5 +1,5 @@
-import rpcBudrun from "$lib/assets/pdf/rpc-budrun.pdf";
-import type { Project } from "$lib/type/data-type";
+import rpcBudrun from "#lib/assets/pdf/rpc-budrun.pdf";
+import type { Project } from "#lib/type/data-type.js";
 
 export const project: Project[] = [
     {

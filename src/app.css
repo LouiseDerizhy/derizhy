@@ -312,7 +312,7 @@
         font-style: normal;
         font-weight: 300;
         font-display: block;
-        src: url($lib/assets/font/fa-light-300.woff2) format("woff2");
+        src: url(/src/lib/assets/font/fa-light-300.woff2) format("woff2");
     }
 
     @font-face {
@@ -320,7 +320,7 @@
         font-style: normal;
         font-weight: 900;
         font-display: block;
-        src: url($lib/assets/font/fa-solid-900.woff2) format("woff2");
+        src: url(/src/lib/assets/font/fa-solid-900.woff2) format("woff2");
     }
 
     @font-face {
@@ -328,7 +328,7 @@
         font-style: normal;
         font-weight: 400;
         font-display: block;
-        src: url($lib/assets/font/fa-brands-400.woff2) format("woff2");
+        src: url(/src/lib/assets/font/fa-brands-400.woff2) format("woff2");
     }
 
     .fa {

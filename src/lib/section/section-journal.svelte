@@ -1,8 +1,8 @@
 <script lang="ts">
-    import SearchBar from "$lib/custom-components/search-bar.svelte";
-    import { journalMenu } from "$lib/data/journal";
-    import type { JournalMenu } from "$lib/type/data-type";
-    import { typeCount } from "$lib/utils";
+    import SearchBar from "#lib/custom-components/search-bar.svelte";
+    import { journalMenu } from "#lib/data/journal.js";
+    import type { JournalMenu } from "#lib/type/data-type.js";
+    import { typeCount } from "#lib/utils/index.js";
 
     let { isJournalPage = false }: { isJournalPage?: boolean } = $props();
 

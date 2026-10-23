@@ -1,7 +1,7 @@
 <script lang="ts">
-    import SkillBadge from "$lib/custom-components/skill-badge.svelte";
-    import { experience } from "$lib/data/portfolio/experience";
-    import { parseCustomHTML } from "$lib/utils";
+    import SkillBadge from "#lib/custom-components/skill-badge.svelte";
+    import { experience } from "#lib/data/portfolio/experience.js";
+    import { parseCustomHTML } from "#lib/utils/index.js";
 
     let showMoreBadge: number[] = $state([]);
 

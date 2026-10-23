@@ -1,4 +1,4 @@
-import { siteList } from "$lib/data/journal/buddhist-site";
+import { siteList } from "#lib/data/journal/buddhist-site.js";
 import type { PageLoad } from "./$types";
 
 export const load: PageLoad = ({ params }) => {

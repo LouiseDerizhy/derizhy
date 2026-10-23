@@ -1,6 +1,6 @@
 <script lang="ts">
-    import { speedcubingData } from "$lib/data/journal/speedcubing";
-    import { parseCustomHTML } from "$lib/utils";
+    import { speedcubingData } from "#lib/data/journal/speedcubing.js";
+    import { parseCustomHTML } from "#lib/utils/index.js";
 </script>
 
 <section class="text-gray h-full min-h-screen w-full text-sm md:text-lg">

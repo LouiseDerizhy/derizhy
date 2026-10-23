@@ -1,7 +1,7 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
-    import { siteList } from "$lib/data/journal/buddhist-site";
-    import { parseCustomHTML } from "$lib/utils";
+    import { siteList } from "#lib/data/journal/buddhist-site.js";
+    import { parseCustomHTML } from "#lib/utils/index.js";
     import type { PageData } from "./$types";
 
     let { data }: { data: PageData } = $props();

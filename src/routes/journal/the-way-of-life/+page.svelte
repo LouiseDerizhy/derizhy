@@ -1,6 +1,6 @@
 <script lang="ts">
-    import { theWayOfLife } from "$lib/data/journal/the-way-of-life";
-    import { parseCustomHTML } from "$lib/utils";
+    import { theWayOfLife } from "#lib/data/journal/the-way-of-life.js";
+    import { parseCustomHTML } from "#lib/utils/index.js";
 </script>
 
 <section class="text-gray h-full min-h-screen w-full text-sm md:text-lg">

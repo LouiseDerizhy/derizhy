@@ -1,9 +1,9 @@
-import { imageRender } from "$lib/image-render";
+import { imageRender } from "#lib/image-render/index.js";
 import type {
     BuddhistSite,
     JournalData,
     SiteLocation,
-} from "$lib/type/data-type";
+} from "#lib/type/data-type.js";
 
 export const buddhisSiteIntro: JournalData = {
     title: "Introduction",

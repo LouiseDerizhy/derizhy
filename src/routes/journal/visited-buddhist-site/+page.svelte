@@ -1,13 +1,13 @@
 <script lang="ts">
-    import Map from "$lib/custom-components/map.svelte";
-    import SearchBar from "$lib/custom-components/search-bar.svelte";
+    import Map from "#lib/custom-components/map.svelte";
+    import SearchBar from "#lib/custom-components/search-bar.svelte";
     import {
         buddhisSiteIntro,
         locationList,
         siteList,
-    } from "$lib/data/journal/buddhist-site";
-    import type { BuddhistSite } from "$lib/type/data-type";
-    import { parseCustomHTML } from "$lib/utils";
+    } from "#lib/data/journal/buddhist-site.js";
+    import type { BuddhistSite } from "#lib/type/data-type.js";
+    import { parseCustomHTML } from "#lib/utils/index.js";
 
     const locations = locationList;
     let search: string = $state("");

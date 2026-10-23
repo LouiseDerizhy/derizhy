@@ -1,8 +1,8 @@
 <script lang="ts">
-    import { browser } from "$app/environment";
-    import logo from "$lib/assets/svg/logo.svg";
-    import { menuForNav } from "$lib/data/menu";
-    import { getLink } from "$lib/utils";
+    import { browser } from '$app/env';
+    import logo from "#lib/assets/svg/logo.svg";
+    import { menuForNav } from "#lib/data/menu.js";
+    import { getLink } from "#lib/utils/index.js";
     import { onDestroy, onMount } from "svelte";
 
     let portfolioMenu = menuForNav.find((item) => item.title === "Portfolio")!;

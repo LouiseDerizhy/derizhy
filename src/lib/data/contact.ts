@@ -1,5 +1,5 @@
-import cv from "$lib/assets/pdf/cv.pdf";
-import type { Contact } from "$lib/type/data-type";
+import cv from "#lib/assets/pdf/cv.pdf";
+import type { Contact } from "#lib/type/data-type.js";
 
 export const portfolioContactData: Contact[] = [
     {

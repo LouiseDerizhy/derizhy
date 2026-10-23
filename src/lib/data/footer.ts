@@ -1,4 +1,4 @@
-import type { FooterData } from "$lib/type/data-type";
+import type { FooterData } from "#lib/type/data-type.js";
 
 export const footerData: FooterData = {
     sections: [

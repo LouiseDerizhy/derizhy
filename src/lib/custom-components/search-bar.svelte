@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { SearchBarTypeCount } from "$lib/type/data-type";
+    import type { SearchBarTypeCount } from "#lib/type/data-type.js";
 
     type SearchBarProps =
         | {

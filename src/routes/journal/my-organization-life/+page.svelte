@@ -2,8 +2,8 @@
     import {
         organizationExperience,
         organizationIntro,
-    } from "$lib/data/journal/organization";
-    import { parseCustomHTML } from "$lib/utils";
+    } from "#lib/data/journal/organization.js";
+    import { parseCustomHTML } from "#lib/utils/index.js";
 </script>
 
 <section class="text-gray h-full min-h-screen w-full text-sm md:text-lg">

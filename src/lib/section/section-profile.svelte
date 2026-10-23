@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Avatar from "$lib/assets/image/profile/derizhy.webp";
-    import { portfolioContactData } from "$lib/data/contact";
+    import Avatar from "#lib/assets/image/profile/derizhy.webp";
+    import { portfolioContactData } from "#lib/data/contact.js";
 </script>
 
 <section
