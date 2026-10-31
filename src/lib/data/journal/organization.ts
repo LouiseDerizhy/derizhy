@@ -33,7 +33,7 @@ export const organizationExperience: OrganizationJournal[] = [
     {
         name: "One Magister Information Technology Students (OneMITS)",
         location: "Universitas Mikroskil, Medan",
-        time: "2020 - 2024",
+        time: "2025 - 2026",
         description: [
             "Master of Information Technology Student Association in Mikroskil University.",
         ],
