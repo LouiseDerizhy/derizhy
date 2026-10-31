@@ -2,19 +2,19 @@ import { imageRender } from "#lib/image-render/index.js";
 import type { Experience } from "#lib/type/data-type.js";
 
 export const experience: Experience[] = [
-    // {
-    //     id: 3,
-    //     position: "Full Stack Developer",
-    //     company: "PT Bank Mestika Dharma Tbk",
-    //     time: "Oct 2026 - Present",
-    //     logo: imageRender.mestikaLogo,
-    //     description: ["Maintaining Banking System Software."],
-    //     techs: ["TypeScript"],
-    // },
+    {
+        id: 3,
+        position: "Full Stack Developer",
+        company: "Bank Mestika Dharma",
+        time: "Oct 2026 - Present",
+        logo: imageRender.mestikaLogo,
+        description: ["Maintaining Banking System Software."],
+        techs: ["TypeScript"],
+    },
     {
         id: 2,
         position: "Full Stack Developer",
-        company: "PT Murni Sadar Tbk",
+        company: "Murni Teguh Hospitals Group",
         time: "Oct 2022 - Oct 2026",
         logo: imageRender.mtLogo,
         description: [
