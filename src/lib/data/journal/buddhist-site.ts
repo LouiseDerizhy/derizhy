@@ -16,6 +16,29 @@ export const buddhisSiteIntro: JournalData = {
 
 export const siteList: BuddhistSite[] = [
     {
+        id: "vihara-buddha-narada-deli-serdang",
+        link: "/journal/visited-buddhist-site/vihara-buddha-narada-deli-serdang",
+        description: "Visit to Vihara Buddha Narada, Deli Serdang, Indonesia",
+        title: "Vihara Buddha Narada",
+        location: "Deli Serdang, Indonesia",
+        locationLink: "https://maps.app.goo.gl/tpeUf7arUpbpMXmN8",
+        pic: imageRender.viharaBuddhaNaradaDeliSerdang,
+        time: "1st November 2026",
+        embedMap:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d456.46723105390333!2d98.80954340683599!3d3.530053145637258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031399836590319%3A0x605806102d29cf13!2sVihara%20Buddha%20Narada!5e0!3m2!1sen!2sid!4v1793540688964!5m2!1sen!2sid",
+        story: [
+            "My first visit to this vihara was back in 2022. Since then, I've returned several times to attend various events and celebrations hosted here.",
+            "**Vihara Buddha Narada** has a fairly spacious complex. There is a main building for the baktisala and another building for the Buddhist Sunday school. At the back, you'll also find a kuti area and a large garden. Inside the garden stands a white building called **Saddhamma Sitagu Sima Hall**, which adds a distinctive touch to the complex.",
+            "Vihara Buddha Narada also has its own Buddhist youth organization called **Persaudaraan Muda-Mudi Vihara Buddha Narada** (PMVBN).",
+        ],
+        timeline: [
+            {
+                time: "1st November 2026",
+                event: "Inauguration of Musyawarah Daerah X Committee",
+            },
+        ],
+    },
+    {
         id: "vihara-avalokitesvara-padangsidimpuan",
         link: "/journal/visited-buddhist-site/vihara-avalokitesvara-padangsidimpuan",
         description:
@@ -476,6 +499,19 @@ export const siteList: BuddhistSite[] = [
 ];
 
 export const locationList: SiteLocation[] = [
+    {
+        id: "vihara-buddha-narada-deli-serdang",
+        title: "Vihara Buddha Narada",
+        location: "Deli Serdang, Indonesia",
+        date: "2026-11-01",
+        coordinates: {
+            latitude: 3.530171609398741,
+            longitude: 98.8097426279561,
+        },
+        link: "/journal/visited-buddhist-site/vihara-buddha-narada-deli-serdang",
+        locationLink: "https://maps.app.goo.gl/tpeUf7arUpbpMXmN8",
+        pic: imageRender.viharaBuddhaNaradaDeliSerdang,
+    },
     {
         id: "vihara-avalokitesvara-padangsidimpuan",
         title: "Vihara Avalokitesvara",
